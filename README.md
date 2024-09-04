@@ -44,7 +44,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="images/verslagfotos/homepage2.png">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Gta Online - Discover 
+  Gta Online - Discover <br>
   <img src="images/verslagfotos/discover1.png">
   <img src="images/verslagfotos/discover2.png">
  
