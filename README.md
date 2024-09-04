@@ -40,8 +40,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home Pagina - Gta V
-  <img src="images/verslagfotos/homepage1">
-  <img src="images/verslagfotos/homepage2">
+  <img src="images/verslagfotos/homepage1.png">
+  <img src="images/verslagfotos/homepage2.png">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Gta Online - Discover 
