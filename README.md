@@ -58,7 +58,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  ## Verschillende Beperkingen:
+  # Zicht beperkingen 
+  ahahahahah
+  # Motorische Beperking (spasmes)
+
+  ## Screenreader
 
 </details>
 
