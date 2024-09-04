@@ -39,7 +39,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.rockstargames.com/gta-v
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Home Pagina - Gta V
+  Home Pagina - Gta V <br>
   <img src="images/verslagfotos/homepage1.png">
   <img src="images/verslagfotos/homepage2.png">
 
