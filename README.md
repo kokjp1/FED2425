@@ -64,7 +64,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   beperking. Dit zorgt ervoor dat je sneller zou kunnen zien wat de belangrijke acties zijn zodat je niet de hele webpagina hoeft te onderzoeken terwijl je moeite hebt met scherp zien. 
   ##### Motorische Beperking (spasmes)
   Ook heb ik een Schok apparaat kunnen proberen om spasmes/parkinson te simuleren. Ik weet niet hoe accuraat dit apparaat was maar als het werkelijk zo is dan is het web bedienen in zo'n situatie vrijwel onmogelijk met je handen. De eerste stand van de schokband zorgde ervoor dat mijn hand enorm ging trillen waardoor ik niet accuraat op het toetsenbord kon     klikken, maar de tweede en tevens ook veel pijnlijkere stand, zorgde ervoor dat mijn hand/onderarm samentrok waardoor ik uberhaupt mijn laptop niet meer kon bedienen.
-  <img src="images/verslagfotos/samentrekkingen.gif">
+  <img src="images/verslagfotos/samentrekkingen.gif" width="16em">
   #### Screenreader
   Verder heb ik nog een screenreader uitgeprobeerd. Aangezien ik een windows apparaat heb moet ik gebruik maken van de "Narrator". Ik heb geprobeerd verschillende sites te navigeren met de narrator, waarondere H&M en Nike. Dit ging echter helemaal niet goed. Dit komt ongetwijfeld deels omdat ik niet handig ben met een screenreader en niet zo goed weet hoe 
   hij werkt, maar ik denk ook deels omdat de windows (11) narrator niet zo goed functioneert. Ten slotte zou dit ook nog kunnen zijn omdat de website niet semantisch gecodeerd is. Ik hoorde best wel vaak gewoon een vage benaming voor een element, of juist een directe benaming zoals "Link" of "Button" zonder enige verdere informatie.  
