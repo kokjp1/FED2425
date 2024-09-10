@@ -75,8 +75,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Breakdownschets (week 1)
 
 <details>
-  <img src="images/verslagfotos/gridgarden.png">
-
+  <img src="readme-images/gridgarden.png">
+  <img src="readme-images/flexboxfroggy.png">
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
