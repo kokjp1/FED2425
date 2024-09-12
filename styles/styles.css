@@ -16,3 +16,18 @@ main {
         object-fit: cover;
     }
 }
+
+.GrandTheftAutoOnline {
+    background-image: url(../images/gtaonlinebackground.jpg)
+}
+
+article {
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+}
+
+article img {
+    width: 90%;
+    border-radius:.5em;
+}
