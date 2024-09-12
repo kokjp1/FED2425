@@ -100,17 +100,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  De HTML structuur maken ging goed, ook de breakdown schets ging goed. Ik vond het fijn en praktisch om de element inspector te kunnen gebruiken om de benodigde elementen te kunnen downloaden
+  De HTML structuur maken ging goed, ook de breakdown schets ging goed. Ik vond het fijn en praktisch om de element inspector te kunnen gebruiken om de benodigde elementen te kunnen    downloaden. Ik vind het lastig om te bedenken hoe sommige dynamische elementen (na)gemaakt moeten worden
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  Iedereen vragen stellen over zijn site en feedback ontvangen
 
   | Justin         | James              | Rick         | Esha             |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
-
+  *weghalen en opnieuw neerzetten op een bewerkbare manier*
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
