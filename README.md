@@ -80,13 +80,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/dynamischebreakdown1.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/dynamischebreakdown2.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -105,20 +105,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   Iedereen vragen stellen over zijn site en feedback ontvangen
 
-  | Justin         | James              | Rick         | Esha             |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-  *weghalen en opnieuw neerzetten op een bewerkbare manier*
+  Justin: -
+  James: Of bepaalde elementen wel gemaakt moeten worden en zo ja hoe
+  Esha: - 
+  Rick: - 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Moeilijkste dingen hoeven niet
+  - Aantal tips gekregen voor wat wel moet
+  - HTML zag er goed uit behalde de class names, onduidelijk waren die
 
 </details>
 
