@@ -7,6 +7,10 @@ main {
     background-color: var(--background-color);
 }
 
+h1 {
+    display:none;
+}
+
 .hero-section {
     display:flex;
     background-image: url("../images/herobanner.jpg");
