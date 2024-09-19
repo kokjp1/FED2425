@@ -1,6 +1,12 @@
 :root {
     --primary-background-color: black;
     --secondary-background-color: #181414;
+    --text-color-primary: #ffffff;
+}
+
+body {
+    background-color: var(--primary-background-color);
+    color: var(--text-color-primary);
 }
 
 main {
