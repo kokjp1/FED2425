@@ -129,18 +129,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik had een beetje moeite met uberhaupt verder gaan aan het vak omdat vormgeving zon groot vak is. Wat wel goed ging is het hamburger menu begrijpen aan de hand van de lesopdrachten, waardoor ik nu zelf een hamburger menu kan maken voor mijn eigen site. Ook de footer maken ging soepel
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  -: -
+  James: - Dropup menu in footer en hoe is het hamburger menu icoontje gemaakt moet dat zoals voorbeeldsite? zoekbalk in nav, is een div oke? waar je echte linkjes van de voorbeeld site kan doen, doen? section in de nav oke? voor spacing
+  Mamush: - 
+  -: - 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
