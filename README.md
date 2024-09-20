@@ -136,15 +136,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   samen met je groepje opstellen
 
   -: -
-  James: - Dropup menu in footer en hoe is het hamburger menu icoontje gemaakt moet dat zoals voorbeeldsite? zoekbalk in nav, is een div oke? waar je echte linkjes van de voorbeeld site kan doen, doen? section in de nav oke? voor spacing
-  Mamush: - 
+  James: - Dropup menu in footer | en hoe is het hamburger menu icoontje gemaakt moet dat zoals voorbeeldsite? |zoekbalk in nav, is een div oke? | waar je echte linkjes van de voorbeeld site kan doen, doen? section in de nav oke? voor spacing
+  Mamush: Mag ik eigen kleding fotos gebruiken ipv die van de website? | Moet ik voor dit absolute positioning gebruiken? | Hoe krijg ik meer ruimte tussen [...] 
   -: - 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
+  - first of type en end of type
+  - 2 Ul's align items column + space around
   - nog een punt
 - ...
 
