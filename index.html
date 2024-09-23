@@ -55,7 +55,7 @@
 		<a href="discoverGTAO.html">templink</a> 
 	</header>
 	<main>
-	<img class="herobanner overlay" src="images/herobanner.jpg">
+	<img class="herobanner" src="images/herobanner.jpg">
 	<section class="hero-section">
 		<div class="hero-logos">
 			<img src="images/gtavlogo.svg">
@@ -118,10 +118,35 @@
 			<p>Hear the sounds of the world with pinpoint precision: the throttle of a stolen supercar, the rattle of neighboring gunfire, the roar of a helicopter overhead, and more</p>
 		</article>
 	</section>
-	<section class="Buy Now"></section>
-		<h2>Buy Now</h2>
-		<div class="cyclebutton"></div>
-		<!-- footer + rest van buy now section WIP -->
+	<section class="BuyNow"> <!-- Semantisch? 2 sections? -->
+		<div class="BuyNowControls">
+			<h2>Buy Now</h2>
+			<button class="previousbutton"></button>
+			<button class="nextbutton"></button>
+		</div>
+		<div class="BuyNowCards"> <!-- div hier beter of section-->
+			<article>
+				<img src="../images/gtaonlinecardbackground.jpg">
+				<img src="../images/gtaonlinecardimage.jpg">
+				<h2>Grand Theft Auto Online</h2>
+				<p>Includes <b>GTA Online</b></p>
+				<img src="../images/ps5.svg">
+				<img src="../images/xbox.svg">
+				<p>Story mode upgrade available in game</p>
+				<button>SELECT PLATFORM</button>
+			</article>
+			<article>
+				<img src="../images/gtaonlinecardbackground.jpg">
+				<img src="../images/gtavcardimage.jpg">
+				<h2>Grand Theft Auto Online</h2>
+				<p>Includes <b>GTA Online</b></p>
+				<img src="../images/ps5.svg">
+				<img src="../images/xbox.svg">
+				<p>Story mode upgrade available in game</p>
+				<button>SELECT PLATFORM</button>
+			</article>
+		</div>	
+		<p><b>All latest feature upgrades and improvements available for PlayStation 5 and Xbox Series X|S only.</b></p>
 	</section>
 	<section class="ESRB">
         <img src="images/ESRB.svg">
@@ -175,3 +200,14 @@
 </body>
 	
 </html>
+<!-- vraag: specifieke  dingen in een flex container column naast elkaar zetten, oke om section/div te creeeren?-->
+<!-- section classes vervangen door nth of type -->
+
+<!-- 5 elements of surface plane -->
+<!-- 1. microinteracties/Animaties (scroll animatie + normale animatie? onload?)
+ 	 2. DOM Manipulatie
+	 3. evt SVG icons stylen/animaten
+	 4. Custom Properties (uitgebreid)
+	 5. misschien custom theme light mode
+	 6. Prefers Reduced Motion
+--> 

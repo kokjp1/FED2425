@@ -168,6 +168,7 @@
         --font-paragraph-primary: Chalet, sans-serif;
         --font-h2-primary: ChaletComprime, sans-serif;
         --font-size-paragraph: 1em;
+        --font-size-paragraph-tiny: .75em;
         --font-size-h2-large: 3em;
         --font-size-h2-medium: 2.5em
     }
@@ -177,12 +178,16 @@
 
 
 /* || GENERAL STYLES */
+    html,body {
+        overflow-x: hidden;
+        margin:0;
+    }
 
     body {
         background-color: var(--primary-background-color);
         color: var(--text-color-primary);
         font-family: var(--font-paragraph-primary);
-        font-size: var(--font-size-paragraph)
+        font-size: var(--font-size-paragraph);
     }
 
     main {
@@ -215,34 +220,16 @@
 /* || HERO BANNER SECTION STYLES */
 
     .herobanner {
-        width:47.5em;
-        margin-left:-11.5em;
+        width:150%;
+        margin-left:-8.5em;
     }
-
-    .herobanner .overlay {
-        position: absolute;
-        bottom:0;
-        left:0;
-        width:100%;
-        height:125px;
-        background: linear-gradient(180deg,transparent 60%,rgba(0,0,0,.65) 75%,var(--black-200) 90%);
-    }
-
-    .overlay {
-        background: linear-gradient(180deg,transparent 60%,rgba(0,0,0,.65) 75%,var(--black-200) 90%);
-        bottom: -1px;
-        top:unset;
-    }
-
-    /* Jason heeft uitgelegd hoe ik de gradient overlay kon fixen over de hero banner */
 
     .hero-section {
         display: flex;
         gap:1em;
         align-items:center;
         flex-direction: column;
-        margin: -10em 2em 4em 2em;
-
+        margin: -7.5em 2em 4em 2em;
     }
 
     .hero-section p, h2 {
@@ -255,8 +242,12 @@
 
     .hero-section .hero-logos img {
         flex-direction: row;
-        width: 7.5em;
+        width: 7em;
         height: 100%;
+    }
+
+    .hero-section .hero-logos img:last-of-type {
+        width: 6.5em;
     }
 
     .hero-section a {
@@ -353,23 +344,184 @@
 
 /* || CONTENT CARDS SECTION STYLES */
 
-.contentcards {
-    margin: 0 1em 0 2em; ;
-}
+    .contentcards {
+        margin: 0 1em 0 2em; ;
+    }
 
-.contentcards article {
-    display:flex;
-    justify-content: center;
-    flex-direction:column;  
-}
+    .contentcards article {
+        display:flex;
+        justify-content: center;
+        flex-direction:column;  
+    }
 
-.contentcards article img {
-    width: 90%;
-    border-radius:.5em;
-}
+    .contentcards article img {
+        width: 90%;
+        border-radius:.5em;
+    }
 
-.contentcards article p {
-    margin-bottom:5em;
-}
+    .contentcards article p {
+        margin-bottom:5em;
+    }
 
 /* -X- END OF SECTION */
+
+
+/* || BUY NOW SECTION STYLES */
+
+    .BuyNow {
+        padding: 0 0em 0 2em;
+    }
+
+    .BuyNowCards {
+        overflow-x: auto;
+        display: flex;
+        flex-direction: row;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        transition: transform 250ms ease-in; 
+        width: 100%; 
+        gap:1em;
+    }
+
+/* copilot gevraagd om te kijken hoe ik 2 cards horizontale cards kan omzetten naar een scrollable ding, copilot suggereerde overflow x + scrollsnap + webkit voor telefoon */
+
+    .BuyNowCards article {
+        transition: 0.5s;
+        flex: 0 0 90%; 
+        scroll-snap-align: start; 
+        display: flex;
+        flex-direction: row;
+        gap:1em;
+        flex-wrap:wrap;
+        background-color: black;
+        margin: 2em 1em 2em .5em;
+        border-radius:.5em;
+        border: 0.05em solid #282828;
+    }
+
+    .BuyNowCards article img:first-of-type {
+        border-radius:.5em;
+        width: 100%;
+    }
+
+    .BuyNowCards article img:nth-of-type(2) {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top:-7.5em;
+    }
+
+    .BuyNowCards article img:nth-of-type(3){
+        width: 25%;
+        margin-right:0%;
+    }
+
+    .BuyNowCards article img:nth-of-type(4){
+        width: 40%;
+        margin-left:0;
+    }
+
+    .BuyNowCards article p{
+        flex-basis:100%;
+    }
+
+    .BuyNowCards h2 {
+        margin-left:.55em;
+        margin-top:.5em;
+    }
+
+    .BuyNowCards p, .BuyNowCards img:nth-of-type(3),.BuyNowCards img:nth-of-type(4), button { 
+        margin:0 1.5em 0 1.5em;
+    }
+
+    .BuyNowCards article p:last-of-type{
+        font-size: var(--font-size-paragraph-tiny);
+        padding:1em;
+        background-color:#121212;
+        border: 0.05em solid #282828;
+        border-radius:.25em;
+        width:50%;
+        flex-basis:70%;
+        margin-top:1em;
+    }
+
+    .BuyNowCards article button {
+        font-family: var(--font-h2-primary);
+        background-color: #000000;
+        text-decoration: none;
+        width:87.5%;
+        text-align:center;
+        color:white;
+        font-size: 1.2em;
+        padding: 1em 2em 1em 2em;
+        border: 0.05em solid white;
+        border-radius:0.25em;
+        margin: 1em 0 1em 1em;
+    }
+
+    .BuyNowControls {
+        display:flex;
+    }
+
+    .BuyNowControls .previousbutton, .BuyNowControls .nextbutton {
+        background-color: black;
+        color: #fff;
+        padding: 1.75em;
+        cursor: pointer;
+        z-index: 1;
+        margin:0;
+        height:4em;
+        width:4em;
+    }
+
+    .BuyNowControls .previousbutton {
+        background-image: url(../images/buynowcontrolprev.svg);
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size: 50%;
+        border-radius:0.35em;
+        border-bottom-right-radius:0;
+        border-top-right-radius: 0;
+        border: 0.15em solid #282828;
+        border-right:0;
+    }
+
+    .BuyNowControls .nextbutton {
+        background-image: url(../images/buynowcontrolsnext.svg);
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size: 50%;
+        border-radius:0.35em;
+        border-bottom-left-radius:0;
+        border-top-left-radius: 0;
+        border:0.15em solid #282828;
+        border-left:0;
+    }
+
+    .BuyNowControls h2 {
+        margin:0 2.9em 0 0;
+    }
+
+    .BuyNowControls .previousbutton:disabled {
+        filter: grayscale(100%) brightness(50%);
+      }
+    
+    .BuyNowControls .nextbutton:disabled {
+        filter: grayscale(100%) brightness(50%);
+      }
+
+      /* copilot de filter laten genereren */
+
+      .BuyNow p:last-of-type {
+        background-color: black;
+        margin-right:2.5em;
+        padding:2em;
+        border-radius:0.5em;
+        border:0.15em solid #282828;
+      }
+/* -X- END OF SECTION */ 
+
+/* variables maken van dingen */
+ /* border color */
+ /* border style */
+ /* black white */
