@@ -176,7 +176,6 @@
 /* -X- END OF SECTION */
 
 
-
 /* || GENERAL STYLES */
     html,body {
         overflow-x: hidden;
@@ -498,8 +497,6 @@
         border-left:0;
     }
 
-    /* copilot gevraagd hoe ik het beste naar images kon linken zodat het compatible was met pages en local server */
-
     .BuyNowControls h2 {
         margin:0 2.9em 0 0;
     }
@@ -523,7 +520,131 @@
       }
 /* -X- END OF SECTION */ 
 
+
+/* || ESRB SECTION STYLES */
+
+      .ESRB {
+        display: grid;
+        width:65%;
+        grid-template-columns: repeat(1, 1.5fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 1.75em;
+        grid-row-gap: 0;
+        font-size:.65em;
+        background-color:black;
+        justify-content: center;
+        align-items: center;
+        margin:12.5em auto;
+        padding:2em 2em 1em 2em;
+        border-radius:0.5em;
+        border: 0.125em solid #282828;
+      }
+
+      .ESRB img { 
+        grid-area: 1 / 1 / 3 / 2;
+        width:6.5em;
+
+      }
+
+      .ESRB p:first-of-type {
+        grid-area: 1 / 2 / 2 / 3;
+        margin:0;
+      }
+
+     .ESRB p:last-of-type {
+        grid-area: 2 / 2 / 3 / 3;
+        width:75%; 
+      }   
+      
+      /* grid generator */
+
+
+/* -X- END OF SECTION */
+
+
+/* FOOTER SECTION STYLES */
+      
+footer {
+    background-color: black;
+    padding-top:3em;
+}
+
+footer ul:first-of-type li {
+    margin-bottom:1.5em;
+    list-style-type: none;
+}
+
+footer select {
+    margin: 3em 0 4em 3.25em;
+}
+
+footer ul:nth-of-type(2) {
+    display:flex;
+    gap:1.5em;
+}
+
+footer ul:nth-of-type(2) img {
+    width:1.5em;
+}
+
+footer ul:nth-of-type(3) {
+    list-style-type: none;  
+    margin-top:5em;
+}
+
+footer ul:nth-of-type(3) li {
+    color:#E8E8E8;
+    margin-bottom:1.5em;
+    font-size:var(--font-size-paragraph-tiny)
+
+}
+/* 
+footer ul:last-of-type {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    list-style-type: none;
+    justify-content: center;
+}
+
+footer ul:last-of-type li:first-of-type {
+    flex-basis:100%;
+} */
+
+footer .gridlist {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 1.4em;
+    height:7.5em;
+    text-align: center;
+    margin-right:2em;
+}
+
+footer .gridlist ul:last-of-type, .gridlist li:first-of-type {
+    grid-column: 2 / 4 ;
+    grid-row:1;
+    font-size: 1em;
+}
+
+footer .gridlist ul:last-of-type, .gridlist li {
+    grid-row: 2;
+    grid-column: 1 / span 4;
+}
+
+footer .gridlist ul:last-of-type, .gridlist li:last-of-type {
+    grid-column: 1 / span 4;
+    grid-row: 3;
+    font-size: 1.5em;
+}
+
 /* variables maken van dingen */
  /* border color */
  /* border style */
- /* black white */
+ /* black white */  
+
+ /* 4B slides, opacity animaties automatisch on load/inview, interserction observers*/
+
+/* alt text */
+
+/* aria text */
