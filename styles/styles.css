@@ -1,158 +1,158 @@
 /* || FONT DECLARATIONS */
 
-    @font-face {
-        font-family: ChaletComprime;
-        font-style: normal;
-        font-weight: 400;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/95ca59e1c2cf140daa8b024c6a139e4c.woff) format("woff")
-    }
+@font-face {
+    font-family: ChaletComprime;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/95ca59e1c2cf140daa8b024c6a139e4c.woff) format("woff")
+}
 
-    @font-face {
-        font-family: ChaletComprime;
-        font-style: normal;
-        font-weight: 700;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/aa2a7321d65db9f2de3cafabeb37e354.woff) format("woff")
-    }
+@font-face {
+    font-family: ChaletComprime;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/aa2a7321d65db9f2de3cafabeb37e354.woff) format("woff")
+}
 
-    @font-face {
-        font-family: Chalet;
-        font-style: normal;
-        font-weight: 400;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/ee9fe642d516bd426445b83dfe08cd39.woff) format("woff")
-    }
+@font-face {
+    font-family: Chalet;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/ee9fe642d516bd426445b83dfe08cd39.woff) format("woff")
+}
 
-    @font-face {
-        font-family: Chalet;
-        font-style: normal;
-        font-weight: 700;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/ef44f43ca79bb1aee29fbc2d457e7dee.woff) format("woff")
-    }
+@font-face {
+    font-family: Chalet;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/ef44f43ca79bb1aee29fbc2d457e7dee.woff) format("woff")
+}
 
-    /* @font-face {
-        font-family: Pricedown;
-        font-style: normal;
-        font-weight: 700;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/099c158b47220bfa6b52c3aaf2ff3753.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: Pricedown;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/099c158b47220bfa6b52c3aaf2ff3753.woff) format("woff")
+} */
 
-    /* @font-face {
-        font-family: NeueHelveticaW05;
-        font-style: normal;
-        font-weight: 400;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/a531a5aaeac0ada2930fd697606d7e9e.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: NeueHelveticaW05;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/a531a5aaeac0ada2930fd697606d7e9e.woff) format("woff")
+} */
 
-    /* @font-face {
-        font-family: NeueHelveticaW05;
-        font-style: normal;
-        font-weight: 700;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/0c60fa85dfc771ab4d15d175246263b5.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: NeueHelveticaW05;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/0c60fa85dfc771ab4d15d175246263b5.woff) format("woff")
+} */
 
-    /* @font-face {
-        font-family: NeueHelveticaW05;
-        font-style: normal;
-        font-weight: 900;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/acbb38cbe0ae2cdfc5f72a96cd32fe86.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: NeueHelveticaW05;
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/acbb38cbe0ae2cdfc5f72a96cd32fe86.woff) format("woff")
+} */
 
-    /* @font-face {
-        font-family: FrizQuadrataW05;
-        font-style: normal;
-        font-weight: 400;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/e4be9aed1e8beccc21ffb995f0a89da0.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: FrizQuadrataW05;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/e4be9aed1e8beccc21ffb995f0a89da0.woff) format("woff")
+} */
 
-    /* @font-face {
-        font-family: FrizQuadrataW05;
-        font-style: italic;
-        font-weight: 400;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/db765ccb047ec8429212c1a913914694.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: FrizQuadrataW05;
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/db765ccb047ec8429212c1a913914694.woff) format("woff")
+} */
 
-    /* @font-face {
-        font-family: FrizQuadrataW05;
-        font-style: normal;
-        font-weight: 700;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/202c95f3c4658c54223b0f4166bd3825.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: FrizQuadrataW05;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/202c95f3c4658c54223b0f4166bd3825.woff) format("woff")
+} */
 
-    /* @font-face {
-        font-family: FrizQuadrataW05;
-        font-style: italic;
-        font-weight: 700;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/a5e4e77906b6b4b3cbf21f4c26271861.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: FrizQuadrataW05;
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/a5e4e77906b6b4b3cbf21f4c26271861.woff) format("woff")
+} */
 
-    /* @font-face {
-        font-family: CorporateW05;
-        font-style: normal;
-        font-weight: 400;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/a8da93d3b93aa6f5b995c8fca0a49d56.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: CorporateW05;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/a8da93d3b93aa6f5b995c8fca0a49d56.woff) format("woff")
+} */
 
-    /* @font-face {
-        font-family: NimbusSansW05;
-        font-style: normal;
-        font-weight: 400;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/f09f2d938e708e14f4211b5c41b1ae2c.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: NimbusSansW05;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/f09f2d938e708e14f4211b5c41b1ae2c.woff) format("woff")
+} */
 
-    /* @font-face {
-        font-family: NimbusSansW05;
-        font-style: normal;
-        font-weight: 700;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/c70a0570c2d0687a208d5612623a9fdc.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: NimbusSansW05;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/c70a0570c2d0687a208d5612623a9fdc.woff) format("woff")
+} */
 
-    /* @font-face {
-        font-family: EurostileNextW05;
-        font-style: normal;
-        font-weight: 700;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/63234fb79c05a628350bb714e8b70f1d.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: EurostileNextW05;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/63234fb79c05a628350bb714e8b70f1d.woff) format("woff")
+} */
 
-    /* @font-face {
-        font-family: Diploma;
-        font-style: normal;
-        font-weight: 400;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/bc4df074e2a0a7a841c564dba3e08fe8.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: Diploma;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/bc4df074e2a0a7a841c564dba3e08fe8.woff) format("woff")
+} */
 
-    /* @font-face {
-        font-family: BrushScriptMT;
-        font-style: normal;
-        font-weight: 400;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/ab64825965d1d9e6e8721c549ca9b65a.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: BrushScriptMT;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/ab64825965d1d9e6e8721c549ca9b65a.woff) format("woff")
+} */
 
-    /* @font-face {
-        font-family: BankGothicBT;
-        font-style: normal;
-        font-weight: 400;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/59de0d7e9b43e1cc0cab80a770e9efe6.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: BankGothicBT;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/59de0d7e9b43e1cc0cab80a770e9efe6.woff) format("woff")
+} */
 
-    /* @font-face {
-        font-family: NeueHelveticaPaneuropean;
-        font-style: italic;
-        font-weight: 700;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/b2ebeec4803f0df250c5e20b396162b4.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: NeueHelveticaPaneuropean;
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/b2ebeec4803f0df250c5e20b396162b4.woff) format("woff")
+} */
 
-    /* @font-face {
-        font-family: NeueHelveticaPaneuropean;
-        font-style: normal;
-        font-weight: 700;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/c02857e0585008d14d216e4a43b8c746.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: NeueHelveticaPaneuropean;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/c02857e0585008d14d216e4a43b8c746.woff) format("woff")
+} */
 
-    /* @font-face {
-        font-family: NeueHelveticaPaneuropean;
-        font-style: normal;
-        font-weight: 400;
-        src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/bf1c99f9a5316689221de8a3540abf38.woff) format("woff")
-    } */
+/* @font-face {
+    font-family: NeueHelveticaPaneuropean;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/bf1c99f9a5316689221de8a3540abf38.woff) format("woff")
+} */
 
 /* -X- END OF SECTION */
 
@@ -160,490 +160,498 @@
 
 /* || VARIABLE DECLARATIONS */
 
-    :root {
-        --primary-background-color: #121212;
-        --secondary-background-color: #181414;
-        --text-color-primary: #E8E8E8;
-        --text-color-header: #FFFFFF;
-        --font-paragraph-primary: Chalet, sans-serif;
-        --font-h2-primary: ChaletComprime, sans-serif;
-        --font-size-paragraph: 1em;
-        --font-size-paragraph-tiny: .75em;
-        --font-size-h2-large: 3em;
-        --font-size-h2-medium: 2.5em
-    }
+:root {
+    --primary-background-color: #121212;
+    --secondary-background-color: #181414;
+    --text-color-primary: #E8E8E8;
+    --text-color-header: #FFFFFF;
+    --font-paragraph-primary: Chalet, sans-serif;
+    --font-h2-primary: ChaletComprime, sans-serif;
+    --font-size-paragraph: 1em;
+    --font-size-paragraph-tiny: .75em;
+    --font-size-h2-large: 3em;
+    --font-size-h2-medium: 2.5em
+}
 
 /* -X- END OF SECTION */
 
 
 /* || GENERAL STYLES */
-    html,body {
-        overflow-x: hidden;
-        margin:0;
-    }
+html,body {
+    overflow-x: hidden;
+    margin:0;
+}
 
-    body {
-        background-color: var(--primary-background-color);
-        color: var(--text-color-primary);
-        font-family: var(--font-paragraph-primary);
-        font-size: var(--font-size-paragraph);
-    }
+body {
+    background-color: var(--primary-background-color);
+    color: var(--text-color-primary);
+    font-family: var(--font-paragraph-primary);
+    font-size: var(--font-size-paragraph);
+}
 
-    main {
-        background-color: var(--background-color);
-        
-    }
+main {
+    background-color: var(--background-color);
+    
+}
 
-    h1 {
-        display:none;
-    }
+h1 {
+    display:none;
+}
 
-    h2 {
-        font-family: var(--font-h2-primary);
-        font-size: var(--font-size-h2-medium);
-        color: var(--text-color-header);
-    }
+h2 {
+    font-family: var(--font-h2-primary);
+    font-size: var(--font-size-h2-medium);
+    color: var(--text-color-header);
+}
 
 /* -X- END OF SECTION */
 
 
 
 /* || HEADER/NAV STYLES */
-    header {
-        display:none;
-    }
+header {
+    display:none;
+}
 
 /* -X- END OF SECTION */
 
 
 /* || HERO BANNER SECTION STYLES */
 
-    .herobanner {
-        width:150%;
-        margin-left:-8.5em;
-    }
+.herobanner {
+    width:150%;
+    margin-left:-8.5em;
+}
 
-    .hero-section {
-        display: flex;
-        gap:1em;
-        align-items:center;
-        flex-direction: column;
-        margin: -7.5em 2em 4em 2em;
-    }
+.hero-section {
+    display: flex;
+    gap:1em;
+    align-items:center;
+    flex-direction: column;
+    margin: -7.5em 2em 4em 2em;
+}
 
-    .hero-section p, h2 {
-        margin: 1em 0 -.25em 0;
-    }
+.hero-section p, h2 {
+    margin: 1em 0 -.25em 0;
+}
 
-    .hero-section p {
-        margin-bottom: 2em;
-    }
+.hero-section p {
+    margin-bottom: 2em;
+}
 
-    .hero-section .hero-logos img {
-        flex-direction: row;
-        width: 7em;
-        height: 100%;
-    }
+.hero-section .hero-logos img {
+    flex-direction: row;
+    width: 7em;
+    height: 100%;
+}
 
-    .hero-section .hero-logos img:last-of-type {
-        width: 6.5em;
-    }
+.hero-section .hero-logos img:last-of-type {
+    width: 6.5em;
+}
 
-    .hero-section a {
-        font-family: var(--font-h2-primary);
-        text-decoration: none;
-        width:75%;
-        text-align:center;
-        color:white;
-        font-size: 1.2em;
-        left:1em;
-        right:1em;
-        padding: 1em 2em 1em 2em;
-        border: 0.05em solid white;
-        border-radius:0.25em;
-    }
+.hero-section a {
+    font-family: var(--font-h2-primary);
+    text-decoration: none;
+    width:75%;
+    text-align:center;
+    color:white;
+    font-size: 1.2em;
+    left:1em;
+    right:1em;
+    padding: 1em 2em 1em 2em;
+    border: 0.05em solid white;
+    border-radius:0.25em;
+}
 
 /* -X- END OF SECTION */
 
 
 /* || WELCOME TO LS SECTION STYLES */
 
-    .WelcomeToLS {
-        background-image: url(../images/welcometolsbackground.jpg);
-        background-size: cover;
-        margin-bottom:7.5em;
-    }
+.WelcomeToLS {
+    background-image: url(../images/welcometolsbackground.jpg);
+    background-size: cover;
+    margin-bottom:7.5em;
+}
 
-    .WelcomeToLS {
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        gap:2em;;
-    }
+.WelcomeToLS {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2em;;
+}
 
-    .WelcomeToLS img:first-of-type{
-        width:120%;
-    }
+.WelcomeToLS img:first-of-type{
+    width:120%;
+}
 
-    .WelcomeToLS img:last-of-type{
-        width:30%;
-    }
+.WelcomeToLS img:last-of-type{
+    width:30%;
+}
 
-    .WelcomeToLS h2 {
-        padding: 0 .5em 0 .75em;
-        margin:0;
-        font-size: var(--font-size-h2-large);
-    }
+.WelcomeToLS h2 {
+    padding: 0 .5em 0 .75em;
+    margin:0;
+    font-size: var(--font-size-h2-large);
+}
 
-    .WelcomeToLS p {
-        padding: 0 2.25em 0 2.5em;
-        margin:0;
-    }
+.WelcomeToLS p {
+    padding: 0 2.25em 0 2.5em;
+    margin:0;
+}
 
 /* -X- END OF SECTION */
 
 
 /* || GTA ONLINE SECTION STYLES */
 
-    .GrandTheftAutoOnline {
-        background-image: url(../images/gtaonlinebackground.jpg);
-        background-size: cover;;
-    }
+.GrandTheftAutoOnline {
+    background-image: url(../images/gtaonlinebackground.jpg);
+    background-size: cover;;
+}
 
-    .GrandTheftAutoOnline {
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        gap:2em;
-        margin-bottom:7.5em;
+.GrandTheftAutoOnline {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2em;
+    margin-bottom:7.5em;
 
-    }
+}
 
-    .GrandTheftAutoOnline img:first-of-type{
-        width:100%;
-    }
+.GrandTheftAutoOnline img:first-of-type{
+    width:100%;
+}
 
-    .GrandTheftAutoOnline img:last-of-type{
-        width:25%;
-    }
+.GrandTheftAutoOnline img:last-of-type{
+    width:25%;
+}
 
-    .GrandTheftAutoOnline h2 {
-        padding: 0 .5em 0 .75em;
-        margin:0;
-        font-size: var(--font-size-h2-large);
-    }
+.GrandTheftAutoOnline h2 {
+    padding: 0 .5em 0 .75em;
+    margin:0;
+    font-size: var(--font-size-h2-large);
+}
 
-    .GrandTheftAutoOnline p {
-        padding: 0 2.25em 0 2.5em;
-        margin:0;
-    }
+.GrandTheftAutoOnline p {
+    padding: 0 2.25em 0 2.5em;
+    margin:0;
+}
 
 /* -X- END OF SECTION */
 
 
 /* || CONTENT CARDS SECTION STYLES */
 
-    .contentcards {
-        margin: 0 1em 0 2em; ;
-    }
+.contentcards {
+    margin: 0 1em 0 2em; ;
+}
 
-    .contentcards article {
-        display:flex;
-        justify-content: center;
-        flex-direction:column;  
-    }
+.contentcards article {
+    display:flex;
+    justify-content: center;
+    flex-direction:column;  
+}
 
-    .contentcards article img {
-        width: 90%;
-        border-radius:.5em;
-    }
+.contentcards article img {
+    width: 90%;
+    border-radius:.5em;
+}
 
-    .contentcards article p {
-        margin-bottom:5em;
-    }
+.contentcards article p {
+    margin-bottom:5em;
+}
 
 /* -X- END OF SECTION */
 
 
 /* || BUY NOW SECTION STYLES */
 
-    .BuyNow {
-        padding: 0 0em 0 2em;
-    }
+.BuyNow {
+    padding: 0 0em 0 2em;
+}
 
-    .BuyNowCards {
-        overflow-x: auto;
-        display: flex;
-        flex-direction: row;
-        scroll-snap-type: x mandatory;
-        -webkit-overflow-scrolling: touch;
-        transition: transform 250ms ease-in; 
-        width: 100%; 
-        gap:1em;
-    }
+.BuyNowCards {
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    transition: transform 250ms ease-in; 
+    width: 100%; 
+    gap:1em;
+}
 
 /* copilot gevraagd om te kijken hoe ik 2 cards horizontale cards kan omzetten naar een scrollable ding, copilot suggereerde overflow x + scrollsnap + webkit voor telefoon */
 
-    .BuyNowCards article {
-        transition: 0.5s;
-        flex: 0 0 90%; 
-        scroll-snap-align: start; 
-        display: flex;
-        flex-direction: row;
-        gap:1em;
-        flex-wrap:wrap;
-        background-color: black;
-        margin: 2em 1em 2em .5em;
-        border-radius:.5em;
-        border: 0.05em solid #282828;
-    }
+.BuyNowCards article {
+    transition: 0.5s;
+    flex: 0 0 90%; 
+    scroll-snap-align: start; 
+    display: flex;
+    flex-direction: row;
+    gap:1em;
+    flex-wrap:wrap;
+    background-color: black;
+    margin: 2em 1em 2em .5em;
+    border-radius:.5em;
+    border: 0.05em solid #282828;
+}
 
-    .BuyNowCards article img:first-of-type {
-        border-radius:.5em;
-        width: 100%;
-    }
+.BuyNowCards article img:first-of-type {
+    border-radius:.5em;
+    width: 100%;
+}
 
-    .BuyNowCards article img:nth-of-type(2) {
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        margin-top:-7.5em;
-    }
+.BuyNowCards article img:nth-of-type(2) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top:-7.5em;
+}
 
-    .BuyNowCards article img:nth-of-type(3){
-        width: 25%;
-        margin-right:0%;
-    }
+.BuyNowCards article img:nth-of-type(3){
+    width: 25%;
+    margin-right:0%;
+}
 
-    .BuyNowCards article img:nth-of-type(4){
-        width: 40%;
-        margin-left:0;
-    }
+.BuyNowCards article img:nth-of-type(4){
+    width: 40%;
+    margin-left:0;
+}
 
-    .BuyNowCards article p{
-        flex-basis:100%;
-    }
+.BuyNowCards article p{
+    flex-basis:100%;
+}
 
-    .BuyNowCards h2 {
-        margin-left:.55em;
-        margin-top:.5em;
-    }
+.BuyNowCards h2 {
+    margin-left:.55em;
+    margin-top:.5em;
+}
 
-    .BuyNowCards p, .BuyNowCards img:nth-of-type(3),.BuyNowCards img:nth-of-type(4), button { 
-        margin:0 1.5em 0 1.5em;
-    }
+.BuyNowCards p, .BuyNowCards img:nth-of-type(3),.BuyNowCards img:nth-of-type(4), button { 
+    margin:0 1.5em 0 1.5em;
+}
 
-    .BuyNowCards article p:last-of-type{
-        font-size: var(--font-size-paragraph-tiny);
-        padding:1em;
-        background-color:#121212;
-        border: 0.05em solid #282828;
-        border-radius:.25em;
-        width:50%;
-        flex-basis:70%;
-        margin-top:1em;
-    }
+.BuyNowCards article p:last-of-type{
+    font-size: var(--font-size-paragraph-tiny);
+    padding:1em;
+    background-color:#121212;
+    border: 0.05em solid #282828;
+    border-radius:.25em;
+    width:50%;
+    flex-basis:70%;
+    margin-top:1em;
+}
 
-    .BuyNowCards article button {
-        font-family: var(--font-h2-primary);
-        background-color: #000000;
-        text-decoration: none;
-        width:87.5%;
-        text-align:center;
-        color:white;
-        font-size: 1.2em;
-        padding: 1em 2em 1em 2em;
-        border: 0.05em solid white;
-        border-radius:0.25em;
-        margin: 1em 0 1em 1em;
-    }
+.BuyNowCards article button {
+    font-family: var(--font-h2-primary);
+    background-color: #000000;
+    text-decoration: none;
+    width:87.5%;
+    text-align:center;
+    color:white;
+    font-size: 1.2em;
+    padding: 1em 2em 1em 2em;
+    border: 0.05em solid white;
+    border-radius:0.25em;
+    margin: 1em 0 1em 1em;
+}
 
-    .BuyNowControls {
-        display:flex;
-    }
+.BuyNowControls {
+    display:flex;
+}
 
-    .BuyNowControls .previousbutton, .BuyNowControls .nextbutton {
-        background-color: black;
-        color: #fff;
-        padding: 1.75em;
-        cursor: pointer;
-        z-index: 1;
-        margin:0;
-        height:4em;
-        width:4em;
-    }
+.BuyNowControls .previousbutton, .BuyNowControls .nextbutton {
+    background-color: black;
+    color: #fff;
+    padding: 1.75em;
+    cursor: pointer;
+    z-index: 1;
+    margin:0;
+    height:4em;
+    width:4em;
+}
 
-    .BuyNowControls .previousbutton {
-        background-image: url(../images/buynowcontrolprev.svg);
-        background-repeat:no-repeat;
-        background-position:center;
-        background-size: 50%;
-        border-radius:0.35em;
-        border-bottom-right-radius:0;
-        border-top-right-radius: 0;
-        border: 0.15em solid #282828;
-        border-right:0;
-    }
+.BuyNowControls .previousbutton {
+    background-image: url(../images/buynowcontrolprev.svg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 50%;
+    border-radius:0.35em;
+    border-bottom-right-radius:0;
+    border-top-right-radius: 0;
+    border: 0.15em solid #282828;
+    border-right:0;
+}
 
-    .BuyNowControls .nextbutton {
-        background-image: url(../images/buynowcontrolsnext.svg);
-        background-repeat:no-repeat;
-        background-position:center;
-        background-size: 50%;
-        border-radius:0.35em;
-        border-bottom-left-radius:0;
-        border-top-left-radius: 0;
-        border:0.15em solid #282828;
-        border-left:0;
-    }
+.BuyNowControls .nextbutton {
+    background-image: url(../images/buynowcontrolsnext.svg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 50%;
+    border-radius:0.35em;
+    border-bottom-left-radius:0;
+    border-top-left-radius: 0;
+    border:0.15em solid #282828;
+    border-left:0;
+}
 
-    .BuyNowControls h2 {
-        margin:0 2.9em 0 0;
-    }
+.BuyNowControls h2 {
+    margin:0 2.9em 0 0;
+}
 
-    .BuyNowControls .previousbutton:disabled {
-        filter: grayscale(100%) brightness(50%);
-      }
-    
-    .BuyNowControls .nextbutton:disabled {
-        filter: grayscale(100%) brightness(50%);
-      }
+.BuyNowControls .previousbutton:disabled {
+    filter: grayscale(100%) brightness(50%);
+  }
 
-      /* copilot de filter laten genereren */
+.BuyNowControls .nextbutton:disabled {
+    filter: grayscale(100%) brightness(50%);
+  }
 
-      .BuyNow p:last-of-type {
-        background-color: black;
-        margin-right:2.5em;
-        padding:2em;
-        border-radius:0.5em;
-        border:0.15em solid #282828;
-      }
+  /* copilot de filter laten genereren */
+
+  .BuyNow p:last-of-type {
+    background-color: black;
+    margin-right:2.5em;
+    padding:2em;
+    border-radius:0.5em;
+    border:0.15em solid #282828;
+  }
 /* -X- END OF SECTION */ 
 
 
 /* || ESRB SECTION STYLES */
 
-      .ESRB {
-        display: grid;
-        width:65%;
-        grid-template-columns: repeat(1, 1.5fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 1.75em;
-        grid-row-gap: 0;
-        font-size:.65em;
-        background-color:black;
-        justify-content: center;
-        align-items: center;
-        margin:12.5em auto;
-        padding:2em 2em 1em 2em;
-        border-radius:0.5em;
-        border: 0.125em solid #282828;
-      }
+  .ESRB {
+    display: grid;
+    width:65%;
+    grid-template-columns: repeat(1, 1.5fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 1.75em;
+    grid-row-gap: 0;
+    font-size:.65em;
+    background-color:black;
+    justify-content: center;
+    align-items: center;
+    margin:12.5em auto;
+    padding:2em 2em 1em 2em;
+    border-radius:0.5em;
+    border: 0.125em solid #282828;
+  }
 
-      .ESRB img { 
-        grid-area: 1 / 1 / 3 / 2;
-        width:6.5em;
+  .ESRB img { 
+    grid-area: 1 / 1 / 3 / 2;
+    width:6.5em;
 
-      }
+  }
 
-      .ESRB p:first-of-type {
-        grid-area: 1 / 2 / 2 / 3;
-        margin:0;
-      }
+  .ESRB p:first-of-type {
+    grid-area: 1 / 2 / 2 / 3;
+    margin:0;
+  }
 
-     .ESRB p:last-of-type {
-        grid-area: 2 / 2 / 3 / 3;
-        width:75%; 
-      }   
-      
-      /* grid generator */
+ .ESRB p:last-of-type {
+    grid-area: 2 / 2 / 3 / 3;
+    width:75%; 
+  }   
+  
+  /* grid generator */
 
 
 /* -X- END OF SECTION */
 
 
 /* FOOTER SECTION STYLES */
-      
+  
 footer {
-    background-color: black;
-    padding-top:3em;
+background-color: black;
+padding-top:3em;
 }
 
-footer ul:first-of-type li {
-    margin-bottom:1.5em;
-    list-style-type: none;
+footer ul:nth-of-type(1) li {
+margin-bottom:1.5em;
+list-style-type: none;
 }
 
 footer select {
-    margin: 3em 0 4em 3.25em;
+margin: 3em 0 4em 3.25em;
 }
 
 footer ul:nth-of-type(2) {
-    display:flex;
-    gap:1.5em;
+display:flex;
+gap:1.5em;
 }
 
 footer ul:nth-of-type(2) img {
-    width:1.5em;
+width:1.5em;
 }
 
 footer ul:nth-of-type(3) {
-    list-style-type: none;  
-    margin-top:5em;
+list-style-type: none;  
+margin-top:5em;
 }
 
 footer ul:nth-of-type(3) li {
-    color:#E8E8E8;
-    margin-bottom:1.5em;
-    font-size:var(--font-size-paragraph-tiny)
+color:#E8E8E8;
+margin-bottom:1.5em;
+font-size:var(--font-size-paragraph-tiny)
 
 }
 /* 
 footer ul:last-of-type {
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    list-style-type: none;
-    justify-content: center;
+display:flex;
+flex-direction: row;
+flex-wrap:wrap;
+list-style-type: none;
+justify-content: center;
 }
 
 footer ul:last-of-type li:first-of-type {
-    flex-basis:100%;
+flex-basis:100%;
 } */
 
 footer .gridlist {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(3, auto);
-    grid-gap: 1.4em;
-    height:7.5em;
-    text-align: center;
-    margin-right:2em;
+display: grid;
+grid-template-columns: repeat(3, auto);
+grid-template-rows: repeat(3, auto);
+grid-row-gap: 0em;
+height:7.5em;
+text-align: center;
+margin-right:2em;
+list-style-type: none;
+font-size:var(--font-size-paragraph-tiny);
+width:20em;
+
 }
 
-footer .gridlist ul:last-of-type, .gridlist li:first-of-type {
-    grid-column: 2 / 4 ;
-    grid-row:1;
-    font-size: 1em;
+footer .gridlist ul:nth-of-type(4), .gridlist li:first-of-type {
+grid-column: 2 / 4;
+grid-row:1;
+font-size: 1em;
+margin:2em 0 0 0;
 }
 
-footer .gridlist ul:last-of-type, .gridlist li {
-    grid-row: 2;
-    grid-column: 1 / span 4;
+footer .gridlist ul:nth-of-type(4), .gridlist li {
+grid-row: 2;
+grid-column: 1 2 3 4;
+margin-bottom:-2em;
 }
 
-footer .gridlist ul:last-of-type, .gridlist li:last-of-type {
-    grid-column: 1 / span 4;
-    grid-row: 3;
-    font-size: 1.5em;
+footer .gridlist ul:nth-of-type(4), .gridlist li:last-of-type {
+grid-column: 1 / span 4;
+grid-row: 3;
+font-size: 1em;
+margin:1.5em 0 0 0;
 }
+
 
 /* variables maken van dingen */
- /* border color */
- /* border style */
- /* black white */  
+/* border color */
+/* border style */
+/* black white */  
 
- /* 4B slides, opacity animaties automatisch on load/inview, interserction observers*/
+/* 4B slides, opacity animaties automatisch on load/inview, interserction observers*/
 
 /* alt text */
 
