@@ -17,7 +17,6 @@
 <body>
 	<header>
 		<h1>Grand Theft Auto 5 Home</h1> <!-- display:none, voor screenreaders-->
-		<!-- <hamburgermenu></hamburgermenu> -->
 		<button class="openmenu">
 			<span></span>
 			<span></span>
@@ -26,15 +25,15 @@
 		<img src="images/gta5widelogo.svg">
 		<img src="images/profileicon.svg"> 
 		<nav>
+			<input class="searchbar" type="text" placeholder="Search Rockstar Games...">
 			<ul>
-				<a href="">Overview</a>
+				<a href="" class="active">Overview</a>
 				<button> GTA Online <img pijltje> </button>
 				<button> Story <img pijltje> </button>
 				<a href="">GTA+</a>
 				<button> Community <img pijltje> </button>
 				<a href=""> Support <img externallink></a>
-				<a href=""> Buy Now</a>
-
+				<a href="">BUY NOW</a>
 			</ul>
 		</nav>				
 		<div class="menuaddition">
@@ -209,6 +208,7 @@
 </html>
 <!-- vraag: specifieke  dingen in een flex container column naast elkaar zetten, oke om section/div te creeeren?-->
 <!-- section classes vervangen door nth of type -->
+<!-- Hoe maak ik website niet scrollbaar als je in de nav zit? -->
 
 <!-- 5 elements of surface plane -->
 <!-- 1. microinteracties/Animaties (scroll animatie + normale animatie? onload?)
