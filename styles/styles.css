@@ -267,7 +267,7 @@ nav {
     display:Flex;   
     flex-direction: column;
     transition: translate .75s cubic-bezier(0.1, 0.7, 0.1, 1);
-    z-index:2;
+    z-index:-1;
     /* Hoe zorg ik ervoor dat de header boven de nav blijft
     als ik hem open */
 }
@@ -388,6 +388,18 @@ div.divslide {
 
 /* || HERO BANNER SECTION STYLES */
 
+@keyframes slideuphero {
+	0% {
+		opacity: 0;
+		transform: translateY(8em);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 .herobanner {
     width:150%;
     margin-left:-8.5em;
@@ -401,8 +413,9 @@ div.divslide {
     margin: -7.5em 2em 4em 2em;
 }
 
-.hero-section p, h2 {
+.hero-section p, .hero-section h2 {
     margin: 1em 0 -.25em 0;
+    animation: slideuphero 1s ease-out;
 }
 
 .hero-section p {
@@ -413,6 +426,9 @@ div.divslide {
     flex-direction: row;
     width: 7em;
     height: 100%;
+    animation: slideuphero 1s ease-out;
+    white-space: nowrap;
+    overflow:hidden;
 }
 
 .hero-section .hero-logos img:last-of-type {
@@ -431,6 +447,7 @@ div.divslide {
     padding: 1em 2em 1em 2em;
     border: 0.05em solid white;
     border-radius:0.25em;
+    animation: slideuphero 1s ease-out;
 }
 
 /* -X- END OF SECTION */
@@ -521,6 +538,11 @@ div.divslide {
     display:flex;
     justify-content: center;
     flex-direction:column;  
+    opacity:0;
+}
+
+.contentcards article.zichtbaar {
+    opacity:1;
 }
 
 .contentcards article img {

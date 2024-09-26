@@ -56,3 +56,23 @@ function openmenu () {
     nav.classList.toggle("toonMenu")
     floordiv.classList.toggle("divslide")
 }
+
+let contentcards = document.querySelector('.contentcards');
+
+function tooncards(entries, observer) {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            contentcards.classList.toggle("zichtbaar");
+            observer.unobserve(entry.target); // Stop observing after the class is toggled
+        }
+    });
+}
+
+let observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.1
+};
+
+let observer = new IntersectionObserver(tooncards, observerOptions);
+observer.observe(contentcards);
