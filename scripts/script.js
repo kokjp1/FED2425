@@ -44,3 +44,15 @@ nextButton.addEventListener('click', () => {
 changeImage();
 
 // https://codepen.io/DarkCode123/pen/MWoNBgz
+
+
+const openbutton = document.querySelector('.openmenu') 
+
+openbutton.addEventListener('click', openmenu)
+
+function openmenu () {
+    let floordiv = document.querySelector(".menuaddition")
+    let nav = document.querySelector('nav')
+    nav.classList.toggle("toonMenu")
+    floordiv.classList.toggle("divslide")
+}

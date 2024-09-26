@@ -168,7 +168,9 @@
     --font-paragraph-primary: Chalet, sans-serif;
     --font-h2-primary: ChaletComprime, sans-serif;
     --font-size-paragraph: 1em;
+    --font-weight-paragraph-heavy: 700;
     --font-size-paragraph-tiny: .75em;
+    --font-weight-paragraph-tiny-heavy: 700;
     --font-size-h2-large: 3em;
     --font-size-h2-medium: 2.5em
 }
@@ -210,7 +212,97 @@ h2 {
 
 /* || HEADER/NAV STYLES */
 header {
-    display:none;
+    display:flex;
+    justify-content: space-around;
+    gap:2.5em;
+    padding:1.5em 3em 1.5em 1.5em;
+    background-color: black;
+    border: 0.05em solid #282828;
+    z-index: 2;
+    position: relative;
+}
+
+header img:first-of-type {
+    width:10em;
+}
+
+header img:last-of-type {
+    width:2em;
+}
+
+header button.openmenu {
+    display:flex;
+    flex-direction: column;
+    gap:.45em;
+    background: transparent;
+    border:none;
+    padding:.5em;
+    margin:0;
+}
+
+header button.openmenu span {
+    display:flex;
+    flex-direction: column;
+    padding:.1em .85em .1em .85em;
+    background-color: white;
+}
+
+nav {
+    background-color: black;
+    position:fixed;
+    translate: 0 -110%;
+    left:0;
+    top:4.5em;
+    bottom:0;
+    right:0;
+    display:Flex;   
+    flex-direction: column;
+    transition: translate .75s cubic-bezier(0.1, 0.7, 0.1, 1);
+    z-index:1;
+    /* Hoe zorg ik ervoor dat de header boven de nav blijft
+    als ik hem open */
+}
+
+div.menuaddition{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    bottom:0;
+    translate: 0 100%;
+    transition: translate .75s cubic-bezier(0.1, 0.7, 0.1, 1);
+    /* chatgpt gevraagd om een dramatische ease-out transition */
+    background-color:#282828;
+    width:101%;
+    margin-left:1em;
+}
+
+div.menuaddition article {
+    margin: 1em 1em 1em 1em;
+}
+
+div.menuaddition article a {
+    display:flex;
+    gap:0.5em;
+    text-decoration: none;
+    color:white;
+}
+
+div.menuaddition article p {
+    font-size:var(--font-size-paragraph);
+    font-weight:var(--font-weight-paragraph-heavy);
+}
+
+div.menuaddition article img {
+    width:1em;
+}
+
+div.divslide {
+    translate:0 0; 
+}
+
+nav.toonMenu {
+    translate: 0 0;
 }
 
 /* -X- END OF SECTION */
@@ -563,87 +655,102 @@ header {
 
 
 /* FOOTER SECTION STYLES */
-  
-footer {
-background-color: black;
-padding-top:3em;
-}
+    
+    footer {
+    background-color: black;
+    padding-top:3em;
+    padding-bottom:3em;
+    }
 
-footer ul:nth-of-type(1) li {
-margin-bottom:1.5em;
-list-style-type: none;
-}
+    footer ul:nth-of-type(1) li {
+    margin-bottom:1.5em;
+    list-style-type: none;
+    }
 
-footer select {
-margin: 3em 0 4em 3.25em;
-}
+    footer select {
+        margin: 3em 0 4em 3.25em;
+        background-color: black;
+        color:white;
+        appearance: none;
+        -webkit-appearance: none;
+        padding:2em 5em 2em 5em;
+    }
 
-footer ul:nth-of-type(2) {
-display:flex;
-gap:1.5em;
-}
+    footer select.languageselector {
+    background-image: url(../images/downselectarrow.svg);
+    background-position:
+      14em, 0.5em,
+      100% 0 ;
+    background-size:
+      1em;
+    background-repeat: no-repeat;
+  }
 
-footer ul:nth-of-type(2) img {
-width:1.5em;
-}
+  /* footer select.languageselector:focus {
+  } */
 
-footer ul:nth-of-type(3) {
-list-style-type: none;  
-margin-top:5em;
-}
+  /* hoe style ik een background image rotation */
 
-footer ul:nth-of-type(3) li {
-color:#E8E8E8;
-margin-bottom:1.5em;
-font-size:var(--font-size-paragraph-tiny)
+  /* https://codepen.io/vkjgr/pen/VYMeXp?editors=1100 ^ */
 
-}
-/* 
-footer ul:last-of-type {
-display:flex;
-flex-direction: row;
-flex-wrap:wrap;
-list-style-type: none;
-justify-content: center;
-}
+/* Jesse zei dat het onnodig was om het menu aan de bovenkant te laten openen */
 
-footer ul:last-of-type li:first-of-type {
-flex-basis:100%;
-} */
+    footer ul:nth-of-type(2) {
+    display:flex;
+    gap:2.25em;
+    }
 
-footer .gridlist {
-display: grid;
-grid-template-columns: repeat(3, auto);
-grid-template-rows: repeat(3, auto);
-grid-row-gap: 0em;
-height:7.5em;
-text-align: center;
-margin-right:2em;
-list-style-type: none;
-font-size:var(--font-size-paragraph-tiny);
-width:20em;
+    footer ul:nth-of-type(2) img {
+    width:1em;
+    }
 
-}
+    footer ul:nth-of-type(3) {
+    list-style-type: none;  
+    margin-top:5em;
+    }
 
-footer .gridlist ul:nth-of-type(4), .gridlist li:first-of-type {
-grid-column: 2 / 4;
-grid-row:1;
-font-size: 1em;
-margin:2em 0 0 0;
-}
+    footer ul:nth-of-type(3) li {
+    color:#E8E8E8;
+    margin-bottom:1.5em;
+    font-size:var(--font-size-paragraph-tiny)
+    }
 
-footer .gridlist ul:nth-of-type(4), .gridlist li {
-grid-row: 2;
-grid-column: 1 2 3 4;
-margin-bottom:-2em;
-}
+    footer .gridlist {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-row-gap: 2em;
+    height:7.5em;
+    text-align: center;
+    margin: 10em 4em 5em 4em;
+    list-style-type: none;
+    font-size:var(--font-size-paragraph-tiny);
+    width:17.5em;
+    font-weight:var(--font-weight-paragraph-tiny-heavy);
+    }
 
-footer .gridlist ul:nth-of-type(4), .gridlist li:last-of-type {
-grid-column: 1 / span 4;
-grid-row: 3;
-font-size: 1em;
-margin:1.5em 0 0 0;
-}
+    footer .gridlist ul:nth-of-type(4), .gridlist li:first-of-type {
+    grid-column: 2 / 4;
+    grid-row:1;
+    font-size: 1em;
+    margin:2em 0 0 0;
+    }
+
+    footer .gridlist ul:nth-of-type(4), .gridlist li {
+    grid-row: 2;
+    grid-column: 1 2 3 4;
+    margin-bottom:-2em;
+    }
+
+    footer .gridlist ul:nth-of-type(4), .gridlist li:last-of-type {
+    grid-column: 1 / span 4;
+    grid-row: 3;
+    font-size: 1em;
+    margin:1.5em 0 0 0;
+    }
+
+/* -X- END OF SECTION */
+
 
 
 /* variables maken van dingen */

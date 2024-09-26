@@ -18,10 +18,14 @@
 	<header>
 		<h1>Grand Theft Auto 5 Home</h1> <!-- display:none, voor screenreaders-->
 		<!-- <hamburgermenu></hamburgermenu> -->
+		<button class="openmenu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
 		<img src="images/gta5widelogo.svg">
 		<img src="images/profileicon.svg"> 
 		<nav>
-			<!-- <zoekbalk></zoekbalk> -->
 			<ul>
 				<a href="">Overview</a>
 				<button> GTA Online <img pijltje> </button>
@@ -30,29 +34,29 @@
 				<button> Community <img pijltje> </button>
 				<a href=""> Support <img externallink></a>
 				<a href=""> Buy Now</a>
-				<section>
-					<article>
-						<a href="">
-						<img rockstarlogo>
-						<p>Home</p>
-						</a>
-					</article>
-					<article>
-						<a href="">
-						<img boxlogo>
-						<p>Games</p>
-						</a>
-					</article>
-					<article>
-						<a href="">
-						<img documentlogo>
-						<p>Newswire</p>
-						</a>
-					</article>
-				</section>
+
 			</ul>
-		</nav>
-		<a href="discoverGTAO.html">templink</a> 
+		</nav>				
+		<div class="menuaddition">
+			<article>
+				<a href="">
+				<img src="images/rockstargamestiny.svg">
+				<p>Home</p>
+				</a>
+			</article>
+			<article>
+				<a href="">
+				<img src="images/boxes.svg">
+				<p>Games</p>
+				</a>
+			</article>
+			<article>
+				<a href="">
+				<img src="images/newswire.svg">
+				<p>Newswire</p>
+				</a>
+			</article>
+		</div>
 	</header>
 	<main>
 	<img class="herobanner" src="images/herobanner.jpg">
@@ -164,8 +168,8 @@
         </ul>
 		<!-- <select name="languageselector">Select a language</select> tijdelijke button tot ik weet hoe ik dropdown maak -->
 		<!-- <option value="Deutsch">Select a language</option> -->
-		<select name="pets" id="pet-select">
-		  <option value="">Select a language</option>
+		<select class="languageselector" name="pets" id="pet-select">
+		  <option value=""><img src="images/glolbe.svg">Select a language<img src="images/downselectarrow.svg"></option>
 		  <option value="dog">Dog</option>
 		  <option value="cat">Cat</option>
 		  <option value="hamster">Hamster</option>
@@ -173,12 +177,15 @@
 		  <option value="spider">Spider</option>
 		  <option value="goldfish">Goldfish</option>
 		</select>
+
+		<!-- HOE STYLEN?? TRANSLATE/DROPUP?? LINKJES ERINZETTEN?? -->
+
 		<ul>
+			<a href="#"><img src="images/xicon.svg"></img></a>
 			<a href="#"><img src="images/instagram.svg"></img></a>
-			<a href="#"><img src="images/instagram.svg"></img></a>
-			<a href="#"><img src="images/instagram.svg"></img></a>
-			<a href="#"><img src="images/instagram.svg"></img></a>
-			<a href="#"><img src="images/instagram.svg"></img></a>
+			<a href="#"><img src="images/yticon.svg"></img></a>
+			<a href="#"><img src="images/fbicon.svg"></img></a>
+			<a href="#"><img src="images/twitchicon.svg"></img></a>
 		</ul>
 		<ul>
 			<li>Corporate</li>
