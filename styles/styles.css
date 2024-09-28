@@ -231,13 +231,15 @@ header {
     position: relative;
 }
 
-header img:first-of-type {
+header > img:first-of-type {
     width:8em;
 }
 
-header img:last-of-type {
+header > img:last-of-type {
     width:1.85em;
 }
+
+/* https://chatgpt.com/share/66f817dc-e5d4-8001-bccf-3ece9e448f24 */
 
 header button.openmenu {
     display:flex;
@@ -308,23 +310,53 @@ nav ul {
     flex-direction: column;
     padding:1em;
     margin-top:0;
-    gap:.5em;
+    gap:2em;
   }
 
-nav ul a, button {
+nav ul > :not(:first-child) {
+    margin-left:1em;
+}
+
+/* "How to exclude the first item in a display flex when applyiong margin" Copilot */
+
+nav ul a, details {
     text-decoration: none;
     color:white;
-    font-size:var(--font-size-paragraph);
+    font-size:var(--font-size-paragraph-medium);
     font-weight: var(--font-weight-paragraph-heavy);
 }
 
-nav ul button {
-    background-color:transparent;
-    border:none;
-    text-align:left;
-    margin:0;
-    padding:.85em;
+nav ul details > summary:first-of-type {
+    list-style-type: none;
 }
+
+/* https://stackoverflow.com/questions/6195329/how-can-you-hide-the-arrow-that-is-displayed-by-default-on-the-html5-details-e  */
+
+nav ul details summary { 
+    display:flex;
+    justify-content: space-between;
+}
+
+nav ul details summary img {
+    transition: transform .25s ease-in-out;
+    width:1em;
+}
+
+
+nav ul details ol {
+    list-style-type: none;
+}
+
+nav ul details ol li {
+    margin:1em;
+}
+
+nav ul details[open] summary img {
+    transform:rotate(180deg);
+    transition: transform .35s ease-in-out;
+}
+
+/* https://stackoverflow.com/questions/61292792/css-selector-for-details-element-when-opened */
 
 nav ul a.active {
     background-color:#201c1c;
@@ -332,14 +364,14 @@ nav ul a.active {
     border-radius:.25em;
 }
 
-nav ul a:last-of-type { 
+nav ul > a:last-of-type { 
     background-color: #0c0c0c;
     padding:.75em 1em .75em 1em; 
     text-align: center;
     border: 0.001em solid white;
     border-radius:0.15em;
     margin:0.75em;
-    font-size:var(--font-size-paragraph-tiny)
+    font-size:var(--font-size-paragraph)
 }
 
 div.menuaddition{
@@ -459,13 +491,12 @@ div.divslide {
     background-image: url(../images/welcometolsbackground.jpg);
     background-size: cover;
     margin-bottom:7.5em;
-}
-
-.WelcomeToLS {
+    opacity:0;    
     display:flex;
     flex-direction: column;
     align-items: center;
-    gap:2em;;
+    gap:2em;
+    transition: opacity 1s ease-in-out;
 }
 
 .WelcomeToLS img:first-of-type{
@@ -487,6 +518,10 @@ div.divslide {
     margin:0;
 }
 
+.WelcomeToLS.zichtbaar {
+    opacity:1;
+}
+
 /* -X- END OF SECTION */
 
 
@@ -494,16 +529,18 @@ div.divslide {
 
 .GrandTheftAutoOnline {
     background-image: url(../images/gtaonlinebackground.jpg);
-    background-size: cover;;
-}
-
-.GrandTheftAutoOnline {
+    background-size: cover;
     display:flex;
     flex-direction: column;
     align-items: center;
     gap:2em;
     margin-bottom:7.5em;
+    transition: opacity 1s ease-in-out;
+    opacity:0;
+}
 
+.GrandTheftAutoOnline.zichtbaar {
+    opacity:1;
 }
 
 .GrandTheftAutoOnline img:first-of-type{
@@ -539,6 +576,7 @@ div.divslide {
     justify-content: center;
     flex-direction:column;  
     opacity:0;
+    transition: opacity 1s ease-in-out;
 }
 
 .contentcards article.zichtbaar {

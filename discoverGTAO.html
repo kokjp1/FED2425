@@ -6,115 +6,183 @@
 	<meta name="author" content="jouw naam">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>GTA Online - Rockstar Games</title>
+	<title>Grand Theft Auto V - Rockstar Games</title>
 	
 	<link href="styles/styles.css" rel="stylesheet">
 	<link rel="icon" type="image" href="images/favicon-180x180.png">
 
-    <script defer src="scripts/script.js"></script>
+	<script defer src="scripts/script.js"></script>
 </head>
 
 <body>
 	<header>
-		<h1>Grand Theft Auto Online Home</h1> <!-- display:none, voor screenreaders-->
-        <!-- <hamburgermenu></hamburgermenu> -->
+		<h1>Grand Theft Auto 5 Home</h1> <!-- display:none, voor screenreaders-->
+		<button class="openmenu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
 		<img src="images/gta5widelogo.svg">
 		<img src="images/profileicon.svg"> 
 		<nav>
-			<!-- <zoekbalk></zoekbalk> -->
+			<input class="searchbar" type="text" placeholder="Search Rockstar Games...">
 			<ul>
-				<a href="">Overview</a>
-				<button> GTA Online <img pijltje> </button>
-				<button> Story <img pijltje> </button>
+				<a href="index.html">Overview</a>
+				<details>
+					<summary>GTA Online <img src="images/hamburgerarrow.svg"></summary>
+					<ol>
+						<li><a href="discoverGTAO.html" class="active">Discover</a></li>
+						<li>Career Progress</li>
+						<li>My Character</li>
+						<li>Jobs</li>
+						<li>Guides</li>
+						<li>License Plate Creator</li>
+					</ol>
+				</details>
+				<details>
+					<summary>Story <img class="banana" src="images/hamburgerarrow.svg"></summary>
+					<ol>
+						<li>Stats</li>
+						<li>Missions</li>
+						<li>Checklist</li>
+						<li>Accomplishments</li>
+					</ol>
+				</details>				
 				<a href="">GTA+</a>
-				<button> Community <img pijltje> </button>
-				<a href=""> Support <img externallink></a>
-				<a href=""> Buy Now</a>
-				<section>
-					<article>
-						<a href="">
-						<img rockstarlogo>
-						<p>Home</p>
-						</a>
-					</article>
-					<article>
-						<a href="">
-						<img boxlogo>
-						<p>Games</p>
-						</a>
-					</article>
-					<article>
-						<a href="">
-						<img documentlogo>
-						<p>Newswire</p>
-						</a>
-					</article>
-				</section>
+				<details>
+					<summary>Community <img src="images/hamburgerarrow.svg"></summary>
+					<ol>
+						<li>Jobs</li>
+						<li>Crews</li>
+						<li>Photos</li>
+						<li>Videos</li>
+						<li>Community Guidelines</li>
+					</ol>
+				</details>				
+				<a href=""> Support <img src="images/externallink.svg"></a>
+				<a href="">BUY NOW</a>
 			</ul>
-		</nav>
-        <a href="index.html">templink</a> 
+		</nav>				
+		<div class="menuaddition">
+			<article>
+				<a href="">
+				<img src="images/rockstargamestiny.svg">
+				<p>Home</p>
+				</a>
+			</article>
+			<article>
+				<a href="">
+				<img src="images/boxes.svg">
+				<p>Games</p>
+				</a>
+			</article>
+			<article>
+				<a href="">
+				<img src="images/newswire.svg">
+				<p>Newswire</p>
+				</a>
+			</article>
+		</div>
 	</header>
 	<main>
-	<section class="GTAOhero-section">
-        <img src="images/gtaonlinelogo.svg">
-        <h2>Grand Theft Auto Online</h2>
-        <p>Experience GTA Online, a dynamic and ever-evolving online universe for up to 30 players, including all existing gameplay upgrades and content released since launch ready to enjoy solo or with friends.</p> 
-    </section>
-    <section class="newThisWeek">
-        <h2>New This Week</h2>
-        <div class="cyclebutton"></div>
-        <img src="link>" class="ContentTile">
-        <img src="link>" class="ContentTile">
-        <img src="link>" class="ContentTile">
-        <img src="link>" class="ContentTile">
-        <img src="link>" class="ContentTile">
-    </section>
-    <section class="CareerProgress">
-        <img src="gifje? of apart">
-        <img src="profile picture">
-        <h2>Career Progress</h2>
-        <p>See all the challenges you've completed in your GTA Online Career. You can also discover new ones and earn valuable rewards as you rise through the criminal ranks.</p>
-        <a href="Track Progress link"> <!--opgemaakt als button-->
-    </section>
-    <section class="Updates">
-        <article class="UpdateTile"> <!--Background image erop zetten van de dlc-->
-            <img src="link">
-            <p>UpdateTileText</p>
-        </article>
-        <article class="UpdateTile"> <!--Background image erop zetten van de dlc-->
-            <img src="link">
-            <p>UpdateTileText</p>
-        </article>    
-        <article class="UpdateTile"> <!--Background image erop zetten van de dlc-->
-            <img src="link">
-            <p>UpdateTileText</p>
-        </article>    
-        <article class="UpdateTile"> <!--Background image erop zetten van de dlc-->
-            <img src="link">
-            <p>UpdateTileText</p>
-        </article>    
-        <article class="UpdateTile"> <!--Background image erop zetten van de dlc-->
-            <img src="link">
-            <p>UpdateTileText</p>
-        </article>        
-    </section>
-    <section class="Plates">
-        <img src="Platesfoto">
-        <img src="LScustoms">
-        <h2>Personalize Your Plates</h2>
-        <p>Favorite ride missing something? Create your own personalized license plates and fit them at LS Customs.</p>
-        <button>Get Started</button>
-    </section>
-    <section class="Feedback">
-        <h2>Share Your Feedback</h2>
-        <p>How are you enjoying GTA Online? Tell us your thoughts and ideas to help us shape the future of the game.</p>
-        <button>Give Feedback</button>
-    </section>
-    <section class="ESRB">
+	<img class="herobanner" src="images/herobanner.jpg">
+	<section class="hero-section">
+		<div class="hero-logos">
+			<img src="images/gtavlogo.svg">
+			<img src="images/gtaonlinelogo.svg">
+		</div>
+		<h2>Now available for PS5 and Xbox Series X|S</h2>
+		<p>Experience entertainment blockbusters, Grand Theft Auto V and GTA Online</p>
+		<a href="https://www.rockstargames.com/gta-v?info=trailer">WATCH THE TRAILER</a>
+		<a href="https://www.rockstargames.com/gta-v?info=order">BUY NOW</a>
+	</section>
+	<section class="WelcomeToLS">
+		<img src="images/welcometols.png">
+		<img src="images/gtavlogo.svg">
+		<h2>Welcome to Los Santos</h2>
+		<p>When a young street hustler, a retired bank robber, and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. government, and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city in which they can trust nobody — least of all each other.</p>
+		<p>Current players can transfer both GTAV Story Mode progress and GTA Online characters and progression to PlayStation 5 and Xbox Series X|S with a one-time migration.</p>
+	</section>
+	<section class="GrandTheftAutoOnline">
+		<img src="images/gtaonline.png">
+		<img src="images/gtaonlinelogo.svg">
+		<h2>Grand Theft Auto Online</h2>
+		<p>Experience GTA Online, a dynamic and ever-evolving online universe for up to 30 players, where you can rise from street-level hustler to become a kingpin of your own criminal empire</p>
+
+		<p>Enjoy new high-performance vehicle upgrades and improvements like the Career Builder as well as all GTA Online gameplay upgrades, expansions, and content released since launch, ready to enjoy solo or with friends. Pull off daring co-operative Heists, enter adrenaline-fueled Stunt Races, compete in unique Adversary Modes, or hang out in social spaces including nightclubs, arcades, penthouse parties, car meetups, and much more.</p>
+	</section>
+	<section class="contentcards">
+		<article class="contentcard"> <!--Exclusive New Content card-->
+			<img src="images/newcontent.jpg">
+			<h2>Exclusive New Content</h2>
+			<p>Step into Hao's Special Works at the Los Santos Car Meet, featuring elite new upgrades and exclusive modifications. Then take these high-performance vehicles into HSW races, new time trials, and more.</p>
+		</article>
+		<article class="contentcard"> <!--New Career Builder card-->
+			<img src="images/careerbuilder.jpg">	
+			<h2>New Career Builder</h2>
+			<p>Get started in GTA Online with the tools of the trade. Quickly choose from one of four businesses — Biker, Executive, Nightclub Owner, or Gunrunner — and select from properties, powerhouse vehicles, and weaponry to kick-start your enterprise.</p>
+		</article>
+		<article class="contentcard"> <!--New Menu Design card-->
+			<img src="images/menudesign.jpg">
+			<h2>New Menu Design</h2>
+			<p>Immediately access everything GTA Online has to offer right from the main menu, including the latest and most popular updates.</p>
+		</article>
+		<article class="contentcard"> <!--Stunning Visuals card-->
+			<img src="images/stunningvisuals.jpg">
+			<h2>Stunning Visuals</h2>
+			<p>Enhanced levels of fidelity and performance with new graphics modes featuring up to 4K resolution, up to 60 frames per second, HDR options, ray tracing, improved texture qualities, and more.</p>
+		</article>
+		<article class="contentcard"> <!--Faster Loading card-->
+			<img src="images/fasterloading.jpg">
+			<h2>Faster Loading</h2>
+			<p>Quicker access to the action as the world of Los Santos and Blaine County load in faster than ever before.</p>
+		</article>
+		<article class="contentcard"> <!--Immersive Controls card-->
+			<img src="images/immersivecontrols.jpg">
+			<h2>Immersive Controls</h2>
+			<p>Feel new levels of responsiveness with Haptic Feedback and dynamic resistance via the Adaptive Triggers on PlayStation 5's DualSense wireless controller, from directional damage to weather effects, rough road surfaces to explosions, and much more.</p>
+		</article>
+		<article class="contentcard">
+			<img src="images/3daudio.jpg">
+			<h2>3D Audio</h2>
+			<p>Hear the sounds of the world with pinpoint precision: the throttle of a stolen supercar, the rattle of neighboring gunfire, the roar of a helicopter overhead, and more</p>
+		</article>
+	</section>
+	<section class="BuyNow"> <!-- Semantisch? 2 sections? -->
+		<div class="BuyNowControls">
+			<h2>Buy Now</h2>
+			<button class="previousbutton"></button>
+			<button class="nextbutton"></button>
+		</div>
+		<div class="BuyNowCards"> <!-- div hier beter of section-->
+			<article>
+				<img src="images/gtaonlinecardbackground.jpg">
+				<img src="images/gtaonlinecardimage.jpg">
+				<h2>Grand Theft Auto Online</h2>
+				<p>Includes <b>GTA Online</b></p>
+				<img src="images/ps5.svg">
+				<img src="images/xbox.svg">
+				<p>Story mode upgrade available in game</p>
+				<button>SELECT PLATFORM</button>
+			</article>
+			<article>
+				<img src="images/gtaonlinecardbackground.jpg">
+				<img src="images/gtavcardimage.jpg">
+				<h2>Grand Theft Auto Online</h2>
+				<p>Includes <b>GTA Online</b></p>
+				<img src="images/ps5.svg">
+				<img src="images/xbox.svg">
+				<p>Story mode upgrade available in game</p>
+				<button>SELECT PLATFORM</button>
+			</article>
+		</div>	
+		<p><b>All latest feature upgrades and improvements available for PlayStation 5 and Xbox Series X|S only.</b></p>
+	</section>
+	<section class="ESRB">
         <img src="images/ESRB.svg">
         <p>Blood and Gore, Intense Violence, Mature Humor, Nudity, Strong Language, Strong Sexual Content, Use of Drugs and Alcohol</p>
         <hr></hr>
-        <p>In-Game Purchases,  Users Interact</p>
+		<p>In-Game Purchases,  Users Interact</p>
     </section>
 	</main>
 	<footer>
@@ -124,13 +192,26 @@
             <li>Community Guidelines</li>
             <li>Subscribe</li>
         </ul>
-		<button>Select a language</button> <!--tijdelijke button tot ik weet hoe ik dropdown maak-->
+		<!-- <select name="languageselector">Select a language</select> tijdelijke button tot ik weet hoe ik dropdown maak -->
+		<!-- <option value="Deutsch">Select a language</option> -->
+		<select class="languageselector" name="pets" id="pet-select">
+		  <option value=""><img src="images/globe.svg">Select a language<img src="images/downselectarrow.svg"></option>
+		  <option value="dog">Dog</option>
+		  <option value="cat">Cat</option>
+		  <option value="hamster">Hamster</option>
+		  <option value="parrot">Parrot</option>
+		  <option value="spider">Spider</option>
+		  <option value="goldfish">Goldfish</option>
+		</select>
+
+		<!-- HOE STYLEN?? TRANSLATE/DROPUP?? LINKJES ERINZETTEN?? -->
+
 		<ul>
+			<a href="#"><img src="images/xicon.svg"></img></a>
 			<a href="#"><img src="images/instagram.svg"></img></a>
-			<a href="#"><img src="images/instagram.svg"></img></a>
-			<a href="#"><img src="images/instagram.svg"></img></a>
-			<a href="#"><img src="images/instagram.svg"></img></a>
-			<a href="#"><img src="images/instagram.svg"></img></a>
+			<a href="#"><img src="images/yticon.svg"></img></a>
+			<a href="#"><img src="images/fbicon.svg"></img></a>
+			<a href="#"><img src="images/twitchicon.svg"></img></a>
 		</ul>
 		<ul>
 			<li>Corporate</li>
@@ -140,15 +221,27 @@
 			<li>Legal</li>
 			<li>Do Not Sell or Share My Personal Information</li>
 		</ul>
-		<section>
-			<p>Rockstar Games</p>
-			<p>New York</p>
-			<p>London</p>
-			<p>Paris</p>
-			<p>Bogota</p>
-			<p>MCMXCVIII</p>
-		</section>
-
-	</footer>
+		<ul class="gridlist">
+			<li>Rockstar Games</li>
+			<li>New York</li>
+			<li>London</li>
+			<li>Paris</li>
+			<li>Bogota</li>
+			<li>MCMXCVIII</li>
+		</ul>
+		</footer>
 </body>
+	
 </html>
+<!-- vraag: specifieke  dingen in een flex container column naast elkaar zetten, oke om section/div te creeeren?-->
+<!-- section classes vervangen door nth of type -->
+<!-- Hoe maak ik website niet scrollbaar als je in de nav zit? -->
+
+<!-- 5 elements of surface plane -->
+<!-- 1. microinteracties/Animaties (scroll animatie + normale animatie? onload?)
+ 	 2. DOM Manipulatie
+	 3. evt SVG icons stylen/animaten
+	 4. Custom Properties (uitgebreid)
+	 5. misschien custom theme light mode
+	 6. Prefers Reduced Motion
+--> 
