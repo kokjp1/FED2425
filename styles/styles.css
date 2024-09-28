@@ -330,7 +330,16 @@ nav ul details > summary:first-of-type {
     list-style-type: none;
 }
 
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details summary::marker {
+    display: none;
+}
+
 /* https://stackoverflow.com/questions/6195329/how-can-you-hide-the-arrow-that-is-displayed-by-default-on-the-html5-details-e  */
+/* Copilot gevraagd om het te verstoppen op alle browsers want op telefoon previewen had het nog wel de marker omdat het ios is */
 
 nav ul details summary { 
     display:flex;
