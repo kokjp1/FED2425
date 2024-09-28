@@ -1,6 +1,6 @@
 // CARD CAROUSEL JS
 
-    const articles = document.querySelectorAll('div.BuyNowCards article');
+    const articles = document.querySelectorAll('div.BuyNowCards article, div.NewThisWeek article');
     const prevButton = document.querySelector('.previousbutton');
     const nextButton = document.querySelector('.nextbutton');
 
