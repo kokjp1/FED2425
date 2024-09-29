@@ -28,13 +28,6 @@
     src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/ef44f43ca79bb1aee29fbc2d457e7dee.woff) format("woff")
 }
 
-/* @font-face {
-    font-family: Pricedown;
-    font-style: normal;
-    font-weight: 700;
-    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/099c158b47220bfa6b52c3aaf2ff3753.woff) format("woff")
-} */
-
 @font-face {
     font-family: NeueHelveticaW05;
     font-style: normal;
@@ -55,104 +48,6 @@
     font-weight: 900;
     src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/acbb38cbe0ae2cdfc5f72a96cd32fe86.woff) format("woff")
 }
-
-/* @font-face {
-    font-family: FrizQuadrataW05;
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/e4be9aed1e8beccc21ffb995f0a89da0.woff) format("woff")
-} */
-
-/* @font-face {
-    font-family: FrizQuadrataW05;
-    font-style: italic;
-    font-weight: 400;
-    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/db765ccb047ec8429212c1a913914694.woff) format("woff")
-} */
-
-/* @font-face {
-    font-family: FrizQuadrataW05;
-    font-style: normal;
-    font-weight: 700;
-    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/202c95f3c4658c54223b0f4166bd3825.woff) format("woff")
-} */
-
-/* @font-face {
-    font-family: FrizQuadrataW05;
-    font-style: italic;
-    font-weight: 700;
-    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/a5e4e77906b6b4b3cbf21f4c26271861.woff) format("woff")
-} */
-
-/* @font-face {
-    font-family: CorporateW05;
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/a8da93d3b93aa6f5b995c8fca0a49d56.woff) format("woff")
-} */
-
-/* @font-face {
-    font-family: NimbusSansW05;
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/f09f2d938e708e14f4211b5c41b1ae2c.woff) format("woff")
-} */
-
-/* @font-face {
-    font-family: NimbusSansW05;
-    font-style: normal;
-    font-weight: 700;
-    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/c70a0570c2d0687a208d5612623a9fdc.woff) format("woff")
-} */
-
-/* @font-face {
-    font-family: EurostileNextW05;
-    font-style: normal;
-    font-weight: 700;
-    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/63234fb79c05a628350bb714e8b70f1d.woff) format("woff")
-} */
-
-/* @font-face {
-    font-family: Diploma;
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/bc4df074e2a0a7a841c564dba3e08fe8.woff) format("woff")
-} */
-
-/* @font-face {
-    font-family: BrushScriptMT;
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/ab64825965d1d9e6e8721c549ca9b65a.woff) format("woff")
-} */
-
-/* @font-face {
-    font-family: BankGothicBT;
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/59de0d7e9b43e1cc0cab80a770e9efe6.woff) format("woff")
-} */
-
-/* @font-face {
-    font-family: NeueHelveticaPaneuropean;
-    font-style: italic;
-    font-weight: 700;
-    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/b2ebeec4803f0df250c5e20b396162b4.woff) format("woff")
-} */
-
-/* @font-face {
-    font-family: NeueHelveticaPaneuropean;
-    font-style: normal;
-    font-weight: 700;
-    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/c02857e0585008d14d216e4a43b8c746.woff) format("woff")
-} */
-
-/* @font-face {
-    font-family: NeueHelveticaPaneuropean;
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/fonts/bf1c99f9a5316689221de8a3540abf38.woff) format("woff")
-} */
 
 /* -X- END OF SECTION */
 
@@ -179,7 +74,10 @@
     --font-weight-paragraph-tiny-heavy: 700;
 
     --font-size-h2-large: 3em;
-    --font-size-h2-medium: 2.5em
+    --font-size-h2-medium: 2.5em;
+    --font-size-h2-small: 2em;
+
+    --font-weight-h2: 400;
 }
 
 /* fixen/verbeteren/netjes maken */
@@ -736,7 +634,7 @@ div.divslide {
     border-left:0;
 }
 
-.BuyNowControls h2 {
+.BuyNowControls .BuyNowControlsH2-1 {
     margin:0 2.9em 0 0;
 }
 
@@ -905,32 +803,234 @@ div.divslide {
 /* ----------------------------------------------------------------------------------- */
 /* PAGE 2 STYLES */
 
-.herobanner2 {
-        width:100%;
+/* HEROBANNER SECTION STYLES */
+
+    .herobanner2 {
+            width:100%;
+    }
+
+/* -X- END OF SECTION */
+
+
+/* NEW THIS WEEK SECTION STYLES */
+
+    .BuyNowControls .BuyNowControlsH2-2 {
+        margin: 0 .75em 0 0
+    }
+    /* copilot gevraagd om te kijken hoe ik 2 cards horizontale cards kan omzetten naar een scrollable ding, copilot suggereerde overflow x + scrollsnap + webkit voor telefoon */
+
+    /* BuyNowControls gehouden ipv NewThisWeek omdat ik dan ook dezelfde JS functie kon gebruiken + anders dubbelzinnige opmaak zou hebben in mn css  */
+
+    .NewThisWeekTiles {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        overflow-x: auto; 
+        scroll-snap-type: x mandatory;
+        padding: 0 2em;
+        margin-top:1em;
+        transition: transform 250ms ease-in-out;
+        scroll-behavior: smooth;
+    }
+
+    .NewThisWeekTiles article {
+        flex: 0 0 90%; 
+        transition:0.5s;
+        scroll-snap-align: start; 
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        flex-wrap: wrap;
+        background-color: black;
+    }
+
+    .NewThisWeekTiles article img:first-of-type {
+        border-radius:.5em;
+        width: 100%;
+    }
+
+    .NewThisWeek {
+        padding: 0 0em 0 2em;
+        transition: opacity 1s ease-in-out; 
+        opacity:0;
+    }
+    
+    .NewThisWeek.zichtbaar {
+        opacity: 1;
+    }
+
+/* -X- END OF SECTION */
+
+
+/* CAREER PROGRESS SECTION STYLES */
+
+    .CareerProgress {
+        display:flex;
+        flex-direction: column;
+        gap:1em;
+        padding:2em;
+        background-color:black;
+        margin:1.5em;
+        border-radius:0.5em;
+        border:0.085em solid #282828;
+        padding-bottom:2em;
+    }
+
+    .CareerProgress img:first-of-type {
+        width:125%;
+        border-radius : 0.5em 0.5em 0 0;
+        margin:-2em -2em 1em -2em;
+    }
+
+    .CareerProgress img:last-of-type {
+        border-radius:5em;
+        width:4em;
+    }
+
+    .CareerProgress p, .CareerProgress a, .CareerProgress h2, .CareerProgress img:last-of-type {
+        margin:0em;
+    }
+
+    .CareerProgress h2 {
+        font-size: var(--font-size-h2-small);
+        font-weight: var(--font-weight-h2)
+    }
+
+    .CareerProgress p{
+        line-height:1.5em;
+    }
+
+    .CareerProgress a {
+            font-family: var(--font-h2-primary);
+            text-decoration: none;
+            width:75%;
+            text-align:center;
+            color:white;
+            font-size: 1.2em;
+            left:1em;
+            right:1em;
+            padding: 1em 2em 1em 2em;
+            border: 0.05em solid white;
+            border-radius:0.25em;
+    }
+
+/* -X- END OF SECTION */
+
+
+/* UPDATES SECTION STYLES */
+
+.UpdatesCards  {
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory;
+    padding: 0 2em;
+    margin-top:1em;
+    transition: transform 250ms ease-in-out;
+    scroll-behavior: smooth;
+    width:20em;
+    height:25em;
+    opacity:0;
+    transition: opacity 1s ease-in-out;
 }
 
+.UpdatesCards.zichtbaar {
+    opacity:1;
+}
+
+.UpdatesCards article {
+    position: relative;
+    flex: 0 0 90%; 
+    transition:0.5s;
+    scroll-snap-align: start; 
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    flex-wrap: wrap;
+    background-color: black;
+    border-radius:0.5em;
+    margin-right:1em;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.UpdatesCards article img:nth-of-type(2) {
+    position:absolute;
+    width: 50%;
+    left: 55%; /* Move to the center horizontally */
+    top: 50%; /* Move to the center vertically */
+    transform: translate(-50%, -50%); /* Adjust position to center */
+}
+
+.Updates {
+    padding: 0 0em 0 2em;
+}
+
+.UpdatesCards article img:nth-of-type(1){
+    border-radius:0.5em;
+    width: 110%;
+}
+
+.UpdatesCards p {
+    position:absolute;
+    bottom:1em;
+    left:1em;
+    font-family: var(--font-h2-primary);
+    font-size: var(--font-size-paragraph-medium);
+}
+
+/* -X- END OF SECTION */
 
 
+/* PERSONALIZE YOUR PLATES SECTION STYLES */
 
+.PersonalizeYourPlates {
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    padding:2em;
+    background-color:black;
+    margin:2em;
+    border-radius:0.5em;
+    border:0.085em solid #282828;
+    padding-bottom:2em;
+}
 
+.PersonalizeYourPlates img:first-of-type {
+    width:124.5%;
+    border-radius : 0.5em 0.5em 0 0;
+    margin:-2em -2em 0 -2em;
+}
 
+.PersonalizeYourPlates img:last-of-type {
+    width:6.75em;
+}
 
+.PersonalizeYourPlates h2 {
+    font-size: var(--font-size-h2-small);
+    font-weight: var(--font-weight-h2);
+    margin-bottom:-.5em;
+}
 
+.PersonalizeYourPlates p {
+    line-height:1.5em;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.PersonalizeYourPlates a {
+    font-family: var(--font-h2-primary);
+    text-decoration: none;
+    width:75%;
+    text-align:center;
+    color:white;
+    font-size: 1.2em;
+    left:1em;
+    right:1em;
+    padding: 1em 2em 1em 2em;
+    border: 0.05em solid white;
+    border-radius:0.25em;
+}
 
 
 
@@ -939,8 +1039,6 @@ div.divslide {
 /* border color */
 /* border style */
 /* black white */  
-
-/* 4B slides, opacity animaties automatisch on load/inview, interserction observers*/
 
 /* alt text */
 

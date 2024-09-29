@@ -1,46 +1,58 @@
 // CARD CAROUSEL JS
 
-    const articles = document.querySelectorAll('div.BuyNowCards article, div.NewThisWeek article');
-    const prevButton = document.querySelector('.previousbutton');
-    const nextButton = document.querySelector('.nextbutton');
+const articles = document.querySelectorAll('div.BuyNowCards article, div.NewThisWeekTiles article');
+const prevButton = document.querySelector('.previousbutton, .updatespreviousbutton');
+const nextButton = document.querySelector('.nextbutton, .updatesnextbutton');
 
-    let I = 0;
+let I = 0;
 
-    function run() {
+// Define the scroll amount based on the current HTML page
+let scrollAmount;
+const pathname = window.location.pathname;
+
+if (pathname.includes('index.html')) {
+    scrollAmount = 22.5; // Scroll amount for index.html
+} else if (pathname.includes('discoverGTAO.html')) {
+    scrollAmount = 17.5; // Scroll amount for page2.html
+}
+
+function run() {
+    I++;
+    changeImage();
+}
+
+function changeImage() {
+    if (I > articles.length - 1) {
+        I = articles.length - 1;
+    } else if (I < 0) {
+        I = 0;
+    }
+
+    articles.forEach(article => {
+        article.style.transform = `translateX(${-I * scrollAmount}em)`;
+    });
+
+    // template literal uitgelegd door Copilot
+
+    prevButton.disabled = I === 0;
+    nextButton.disabled = I === articles.length - 1;
+}
+
+prevButton.addEventListener('click', () => {
+    if (I > 0) {
+        I--;
+        changeImage();
+    }
+});
+
+nextButton.addEventListener('click', () => {
+    if (I < articles.length - 1) {
         I++;
         changeImage();
     }
+});
 
-    function changeImage() {
-        if (I > articles.length - 1) {
-            I = articles.length - 1; // 
-        } else if (I < 0) {
-            I = 0; // 
-        }
-
-        articles.forEach(article => {
-            article.style.transform = `translateX(${-I * 22.5}em)`;
-        });
-
-        prevButton.disabled = I === 0;
-        nextButton.disabled = I === articles.length - 1;
-    }
-
-    prevButton.addEventListener('click', () => {
-        if (I > 0) {
-            I--;
-            changeImage();
-        }
-    });
-
-    nextButton.addEventListener('click', () => {
-        if (I < articles.length - 1) {
-            I++;
-            changeImage();
-        }
-    });
-
-    changeImage();
+changeImage();
 
     // https://codepen.io/DarkCode123/pen/MWoNBgz
 
@@ -65,7 +77,7 @@
 
 // OPACITY ANIMATION JS 
 
-    const fadeInElements = document.querySelectorAll('.contentcards article, .WelcomeToLS, .GrandTheftAutoOnline');
+    const fadeInElements = document.querySelectorAll('.contentcards article, .WelcomeToLS, .GrandTheftAutoOnline, .UpdatesCards, .NewThisWeek');
 
     const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
@@ -75,7 +87,7 @@
             }
         });
     }, {
-        threshold: 0.3 // 
+        threshold: .3 // 
     });
 
     fadeInElements.forEach(element => {
