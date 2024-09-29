@@ -6,15 +6,16 @@ const nextButton = document.querySelector('.nextbutton, .updatesnextbutton');
 
 let I = 0;
 
-// Define the scroll amount based on the current HTML page
 let scrollAmount;
 const pathname = window.location.pathname;
 
 if (pathname.includes('index.html')) {
-    scrollAmount = 22.5; // Scroll amount for index.html
+    scrollAmount = 22.5; //
 } else if (pathname.includes('discoverGTAO.html')) {
-    scrollAmount = 17.5; // Scroll amount for page2.html
+    scrollAmount = 17.5; // 
 }
+
+// uitleg van copilot
 
 function run() {
     I++;
@@ -31,6 +32,9 @@ function changeImage() {
     articles.forEach(article => {
         article.style.transform = `translateX(${-I * scrollAmount}em)`;
     });
+
+    console.log(scrollAmount);
+
 
     // template literal uitgelegd door Copilot
 

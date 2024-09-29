@@ -136,7 +136,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   samen met je groepje opstellen
 
   -: -
-  James: - Dropup menu in footer | en hoe is het hamburger menu icoontje gemaakt moet dat zoals voorbeeldsite? |zoekbalk in nav, is een div oke? | waar je echte linkjes van de voorbeeld site kan doen, doen? section in de nav oke? voor spacing
+  James: - Dropup menu in footer | en hoe is het hamburger menu icoontje gemaakt moet dat zoals voorbeeldsite? |zoekbalk in nav, is een div oke? | waar je echte linkjes van de voorbeeld site kan doen, doen? section in de nav oke? voor spacing<br>
   Mamush: Mag ik eigen kleding fotos gebruiken ipv die van de website? | Moet ik voor dit absolute positioning gebruiken? | Hoe krijg ik meer ruimte tussen [...] 
   -: - 
 
@@ -180,7 +180,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   samen met je groepje opstellen
 
   -: -
-  James: - Vraag over flexbox exception, vraag over hoe in detail ik iets moet maken, en vraag over Z indices van het hamburgermenu
+  James: - Vraag over flexbox exception, vraag over hoe in detail ik iets moet maken, en vraag over Z indices van het hamburgermenu <br>
   Justin: Uitgebreidde vraag over een grid op zijn website
   -: - 
 
