@@ -1,11 +1,5 @@
 // CARD CAROUSEL JS
 
-const articles = document.querySelectorAll('div.BuyNowCards article, div.NewThisWeekTiles article');
-const prevButton = document.querySelector('.previousbutton, .updatespreviousbutton');
-const nextButton = document.querySelector('.nextbutton, .updatesnextbutton');
-
-let I = 0;
-
 let scrollAmount;
 const pathname = window.location.pathname;
 
@@ -13,7 +7,15 @@ if (pathname.includes('index.html')) {
     scrollAmount = 22.5; //
 } else if (pathname.includes('discoverGTAO.html')) {
     scrollAmount = 17.5; // 
+} else {
+    scrollAmount = 22.5; // 
 }
+
+const articles = document.querySelectorAll('div.BuyNowCards article, div.NewThisWeekTiles article');
+const prevButton = document.querySelector('.previousbutton, .updatespreviousbutton');
+const nextButton = document.querySelector('.nextbutton, .updatesnextbutton');
+
+let I = 0;
 
 // uitleg van copilot
 
