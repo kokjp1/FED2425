@@ -145,7 +145,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   - first of type en end of type
   - 2 Ul's align items column + space around
-  - nog een punt
 - ...
 
 </details>
@@ -174,26 +173,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het hamburger menu gaat dusver heel goed, ik heb wel een beetje moeite met de finishing touches en de echte details maar misschien moet ik me daarbij neerleggen
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  -: -
+  James: - Vraag over flexbox exception, vraag over hoe in detail ik iets moet maken, en vraag over Z indices van het hamburgermenu
+  Justin: Uitgebreidde vraag over een grid op zijn website
+  -: - 
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Z-Index niet gelukt, maar zo gelaten
+  - Hamburger menu wel compleet uitwerken, adhv details element
+  - flexbox exception niet echt te doen zonder extra container
 
 </details>
 
@@ -211,15 +208,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik vind het heel chill dat ik nu de basics van een hamburger menu snap
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/hamburgermenu.png" width="375px" alt="top">
 
+  Ook vind ik het fijn dat ik nu weet hoe ik een carousel kan maken
 
+  <img src="readme-images/hamburgermenu.png" width="375px" alt="top">
+
+  
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  ik had graag nog iets meer tijd en moeite willen steken in de echte details van de website zodat het er nog realistischer uit zag.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/dropdownfooter.png" width="375px" alt="bummer">
+  <img src="readme-images/dropdownfootercorrect.png" width="375px" alt="bummer">
 </details>
 
 
