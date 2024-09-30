@@ -122,6 +122,13 @@
     }
 }
 
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
 /* -X- END OF SECTION */
 
 
@@ -1058,13 +1065,13 @@
         border-radius:var(--border-radius-small);
     }
 
+/* -X- END OF SECTION */
 
+/* SURFACE PLANE DINGEN */
 
-/* variables maken van dingen */
-/* border color */
-/* border style */
-/* black white */  
-
-/* alt text */
-
-/* aria text */
+    /* DOM MANIPULATION */
+    /* CUSTOM PROPERTIES++ */
+    /* THEMES (LIGHTMODE) */
+    /* SCROLL ANIMATIONS */
+    /* REDUCE MOTION */
+    /* ACCESSIBILITY++? */
