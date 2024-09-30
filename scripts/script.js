@@ -4,11 +4,11 @@ let scrollAmount;
 const pathname = window.location.pathname;
 
 if (pathname.includes('index.html')) {
-    scrollAmount = 22.5; //
+    scrollAmount = 22.5; 
 } else if (pathname.includes('discoverGTAO.html')) {
-    scrollAmount = 17.5; // 
+    scrollAmount = 17.5; 
 } else {
-    scrollAmount = 22.5; // 
+    scrollAmount = 22.5; 
 }
 
 const articles = document.querySelectorAll('div.BuyNowCards article, div.NewThisWeekTiles article');
@@ -36,8 +36,6 @@ function changeImage() {
     });
 
     console.log(scrollAmount);
-
-
     // template literal uitgelegd door Copilot
 
     prevButton.disabled = I === 0;
@@ -60,7 +58,7 @@ nextButton.addEventListener('click', () => {
 
 changeImage();
 
-    // https://codepen.io/DarkCode123/pen/MWoNBgz
+    // https://codepen.io/DarkCode123/pen/MWoNBgz BRON VOOR DEZE FUNCTIE
 
 // -X- END OF SECTION
 
@@ -77,6 +75,8 @@ changeImage();
         nav.classList.toggle("toonMenu")
         floordiv.classList.toggle("divslide")
     }
+
+    // Uitleg compleet gehaald uit de lesopdracht
 
 // -X- END OF SECTION
 
