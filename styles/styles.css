@@ -818,8 +818,12 @@
     font-weight:var(--font-weight-paragraph-tiny-heavy);
     }
 
+    footer li {
+        list-style-type: none;
+    }
+
     footer .gridlist ul:nth-of-type(4), .gridlist li:first-of-type {
-    grid-column: 2 / 4;
+    grid-column: 2 / 4 ;
     grid-row:1;
     font-size: 1em;
     margin:2em 0 0 0;
@@ -827,12 +831,11 @@
 
     footer .gridlist ul:nth-of-type(4), .gridlist li {
     grid-row: 2;
-    grid-column: 1 / 4;
     margin-bottom:-2em;
     }
 
     footer .gridlist ul:nth-of-type(4), .gridlist li:last-of-type {
-    grid-column: 1 / span 4;
+    grid-column: 2 / 4;
     grid-row: 3;
     font-size: 1em;
     margin:1.5em 0 0 0;
