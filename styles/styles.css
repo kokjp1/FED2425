@@ -84,17 +84,18 @@
 
     /* IN SPECIALE GEVALLEN VARIABELE NIET TOEGEPAST OMDAT DE WAARDES NIET HERBRUIKT WORDEN */
 
-@media (prefers-color-scheme: light) {
-    :root {
-        --text-color-primary: #000000;
-        --black: #FFFFFF; 
-        --white: #000000;  
-        --primary-background-color: #FFFFFF;  /* Light background */
-        --secondary-background-color: #F0F0F0;  /* Light secondary background */
-        --text-color-primary: #333333;  /* Darker text for readability */
-        --text-color-header: #000000;  /* Black header text */
-        --border-color-primary: #CCCCCC;  /* Light border */
+    @media (prefers-color-scheme: light) {
+        :root {
+            --text-color-primary: #000000;
+            --black: #FFFFFF; 
+            --white: #000000;  
+            --primary-background-color: #FFFFFF;  /* Light background */
+            --secondary-background-color: #F0F0F0;  /* Light secondary background */
+            --text-color-primary: #333333;  /* Darker text for readability */
+            --text-color-header: #000000;  /* Black header text */
+            --border-color-primary: #CCCCCC;  /* Light border */
     }
+
     img[src$="xicon.svg"]{
         filter:brightness(0);
     }
@@ -111,7 +112,7 @@
         filter:none;
     }
 
-    /* How do i make images black on my light mode theme? Would it be possible to only do it on images that end with .svg? */
+    /* CHATGPT How do i make images black on my light mode theme? Would it be possible to only do it on images that end with .svg? */
 
     .WelcomeToLS.zichtbaar {
         background-image: none;
@@ -122,12 +123,15 @@
     }
 }
 
-@media (prefers-reduced-motion: reduce) {
-    * {
-        animation: none !important;
-        transition: none !important;
+    @media (prefers-reduced-motion: reduce) {
+            * {
+                animation: none !important;
+                transition: none !important;
+        }
     }
-}
+
+/* ChatGPT gevraagd over prefers reduced motion, ik vroeg of er een globale oplossing was en dit was het resultaat */
+
 
 /* -X- END OF SECTION */
 
@@ -208,19 +212,23 @@
     nav {
         background-color: var(--black);
         position:fixed;
-        translate: 0 -110%;
+        transform: translate(0, -110%);
         left:0;
         top:4.5em;
         bottom:0;
         right:0;
         display:Flex;   
         flex-direction: column;
-        transition: translate .75s cubic-bezier(0.1, 0.7, 0.1, 1);
+        transition: transform .75s cubic-bezier(0.1, 0.7, 0.1, 1);
         z-index:-1;
     }
 
+    nav ul li {
+        list-style-type: none;
+    }
+
     nav.toonMenu {
-        translate: 0 0;
+        transform: translate(0, 0);
     }
 
     nav input {
@@ -234,7 +242,7 @@
 
     ::placeholder {
         color: var(--white);
-        opacity: 1; /* Firefox */
+        opacity: 1; 
         font-size:var(--font-size-paragraph);
     }
     /* https://www.w3schools.com/howto/howto_css_placeholder.asp */
@@ -309,13 +317,13 @@
     }
     /* https://stackoverflow.com/questions/61292792/css-selector-for-details-element-when-opened */
 
-    nav ul a.active {
+    nav ul li a.active {
         background-color:#201c1c;
-        padding:.75em;
+        padding:.5em 8em .75em .75em;
         border-radius:var(--border-radius-small);
     }
 
-    nav ul > a:last-of-type { 
+    nav > ul > li:last-of-type { 
         background-color: var(--black);
         padding:.75em 1em .75em 1em; 
         text-align: center;
@@ -325,14 +333,16 @@
         font-size:var(--font-size-paragraph)
     }
 
+    /* dubbele child selector */
+
     div.menuaddition{
         display:flex;
         justify-content: center;
         align-items: center;
         position:fixed;
         bottom:0;
-        translate: 0 100%;
-        transition: translate .75s cubic-bezier(0.1, 0.7, 0.1, 1);
+        transform: translate(0, 100%);
+        transition: transform .75s cubic-bezier(0.1, 0.7, 0.1, 1);
         /* chatgpt gevraagd om een dramatische ease-out transition */
         background-color:var(--border-color-primary);
         width:101%;
@@ -362,7 +372,7 @@
     }
 
     div.divslide {
-        translate:0 0; 
+        transform: translate(0, 0); 
     }
 
 /* -X- END OF SECTION */
@@ -616,7 +626,7 @@
     .BuyNowCards article p:last-of-type{
         font-size: var(--font-size-paragraph-tiny);
         padding:1em;
-        background-color:(--black);
+        background-color: var(--black);
         border: 0.05em solid var(--border-color-primary);
         border-radius:var(--border-radius-small);
         width:50%;
@@ -817,7 +827,7 @@
 
     footer .gridlist ul:nth-of-type(4), .gridlist li {
     grid-row: 2;
-    grid-column: 1 2 3 4;
+    grid-column: 1 / 4;
     margin-bottom:-2em;
     }
 
@@ -992,9 +1002,9 @@
     .UpdatesCards article img:nth-of-type(2) {
         position:absolute;
         width: 50%;
-        left: 55%; /* Move to the center horizontally */
-        top: 50%; /* Move to the center vertically */
-        transform: translate(-50%, -50%); /* Adjust position to center */
+        left: 55%;
+        top: 50%;
+        transform: translate(-50%, -50%); 
     }
 
     .Updates {
@@ -1066,6 +1076,66 @@
     }
 
 /* -X- END OF SECTION */
+
+/* BRONNENLIJST */
+
+/*
+Bron: ChatGPT - CSS 99
+Waarvoor: How do i make images black on my light mode theme? Would it be possible to only do it on images that end with .svg?
+
+Bron: ChatGPT - CSS 126
+Waarvoor: ChatGPT gevraagd over prefers reduced motion, ik vroeg of er een globale oplossing was en dit was het resultaat
+
+Bron: ChatGPT, https://chatgpt.com/share/66f817dc-e5d4-8001-bccf-3ece9e448f24 - CSS 189
+Waarvoor: child selector, niet alles onder header maar alleen van header zelf selecteren
+
+Bron: W3Schools, https://www.w3schools.com/howto/howto_css_placeholder.asp - CSS 239
+Waarvoor: Placeholder text stylen via CSS (welke selector nodig/mogelijk?)
+
+Bron: Codepen, https://codepen.io/vkjgr/pen/VYMeXp?editors=1100 - CSS 246
+Waarvoor: Searchbar image toevoegen
+
+Bron: Copilot - CSS 264
+Waarvoor: How to exclude the first item in a display flex when applyiong margin?
+
+Bron: Stackoverflow, https://stackoverflow.com/questions/6195329 how-can-you-hide-the-arrow-that-is-displayed-by-default-on-the-html5-details-e - CSS 284
+Waarvoor: Default arrow verstoppen bij details element
+
+Bron: Copilot
+Waarvoor: Copilot gevraagd om het te verstoppen op alle browsers want op telefoon previewen had het nog wel de marker omdat het ios is
+
+Bron: Stackoverflow, https://stackoverflow.com/questions/61292792/css-selector-for-details-element-when-opened - CSS 310
+Waarvoor: Opened state stylen met css
+
+Bron: ChatGPT - CSS 339
+Waarvoor: Een dramatische curve
+
+Bron: Copilot - CSS 558 
+Waarvoor: copilot gevraagd om te kijken hoe ik 2 cards horizontale cards kan omzetten naar een scrollable ding, copilot suggereerde overflow x + scrollsnap + webkit voor telefoon
+
+Bron: Copilot - CSS 692
+Waarvoor: De filter
+
+Bron: Grid Generator + Jesse/Jason
+Waarvoor: Grid maken voor de ESRB section
+
+Bron: Codepen, https://codepen.io/vkjgr/pen/VYMeXp?editors=1100 - CSS 769
+Waarvoor: image toevoegen aan de select
+
+Bron: Copilot
+Waarvoor: copilot gevraagd om te kijken hoe ik 2 cards horizontale cards kan omzetten naar een scrollable ding, copilot suggereerde overflow x + scrollsnap + webkit voor telefoon
+
+Bron: Codepen, https://codepen.io/DarkCode123/pen/MWoNBgz - JS 3
+Waarvoor: Carousel Scroll
+
+Bron: Lesopdracht hamburgermenu - JS 68
+Waarvoor: hamburgermenu
+
+Bron: Copilot 
+Waarvoor: Intersection Observer
+
+NB. STAAT OOK IN README.MD
+*/
 
 /* SURFACE PLANE DINGEN */
 

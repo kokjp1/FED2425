@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 	
 <head>
 	<meta charset="UTF-8">
@@ -9,7 +9,7 @@
 	<title>Grand Theft Auto V - Rockstar Games</title>
 	
 	<link href="styles/styles.css" rel="stylesheet">
-	<link rel="icon" type="image" href="images/favicon-180x180.png">
+	<link rel="icon" type="image/png" href="images/favicon-180x180.png">
 
 	<script defer src="scripts/script.js"></script>
 </head>
@@ -22,46 +22,53 @@
 			<span></span>
 			<span></span>
 		</button>
+		<!-- Vernomen dat Aria Label op hamburger menu niet nodig is -->
 		<img src="images/gta5widelogo.svg" alt="gtavheaderlogo">
-		<img src="images/profileicon.svg">
+		<img src="images/profileicon.svg" alt="Profile Icon">
 		<nav>
 			<input class="searchbar" type="text" placeholder="Search Rockstar Games...">
 			<ul>
-				<a href="" class="active">Overview</a>
-				<details>
-					<summary>GTA Online <img src="images/hamburgerarrow.svg" alt="dropdownarrow"></summary>
-					<ol>
-						<li><a href="discoverGTAO.html">Discover</a></li>
-						<li>Career Progress</li>
-						<li>My Character</li>
-						<li>Jobs</li>
-						<li>Guides</li>
-						<li>License Plate Creator</li>
-					</ol>
-				</details>
-				<details>
+				<li><a href="index.html" class="active">Overview</a></li>
+				<li>
+				  <details>
+					<summary>GTA Online <img src="images/hamburgerarrow.svg" alt="null"></summary>
+					<ul>
+					  <li><a href="discoverGTAO.html">Discover</a></li>
+					  <li>Career Progress</li>
+					  <li>My Character</li>
+					  <li>Jobs</li>
+					  <li>Guides</li>
+					  <li>License Plate Creator</li>
+					</ul>
+				  </details>
+				</li>
+				<li>
+				  <details>
 					<summary>Story <img class="banana" src="images/hamburgerarrow.svg" alt="null"></summary>
-					<ol>
-						<li>Stats</li>
-						<li>Missions</li>
-						<li>Checklist</li>
-						<li>Accomplishments</li>
-					</ol>
-				</details>				
-				<a href="">GTA+</a>
-				<details>
+					<ul>
+					  <li>Stats</li>
+					  <li>Missions</li>
+					  <li>Checklist</li>
+					  <li>Accomplishments</li>
+					</ul>
+				  </details>
+				</li>
+				<li><a href="">GTA+</a></li>
+				<li>
+				  <details>
 					<summary>Community <img src="images/hamburgerarrow.svg" alt="null"></summary>
-					<ol>
-						<li>Jobs</li>
-						<li>Crews</li>
-						<li>Photos</li>
-						<li>Videos</li>
-						<li>Community Guidelines</li>
-					</ol>
-				</details>				
-				<a href=""> Support <img src="images/externallink.svg" alt="null"></a>
-				<a href="">BUY NOW</a>
-			</ul>
+					<ul>
+					  <li>Jobs</li>
+					  <li>Crews</li>
+					  <li>Photos</li>
+					  <li>Videos</li>
+					  <li>Community Guidelines</li>
+					</ul>
+				  </details>
+				</li>
+				<li><a href="">Support <img src="images/externallink.svg" alt="null"></a></li>
+				<li><a href="">BUY NOW</a></li>
+			  </ul>
 		</nav>				
 		<div class="menuaddition">
 			<article>
@@ -151,27 +158,27 @@
 	<section class="BuyNow"> 
 		<div class="BuyNowControls">
 			<h2 class="BuyNowControlsH2-1">Buy Now</h2>
-			<button class="previousbutton"></button>
-			<button class="nextbutton"></button>
+			<button class="previousbutton" aria-label="Previous Card Button"></button>
+			<button class="nextbutton" aria-label="Next Card Button"></button>
 		</div>
 		<div class="BuyNowCards"> 
 			<article>
-				<img src="images/gtaonlinecardbackground.jpg">
-				<img src="images/gtaonlinecardimage.jpg">
-				<h2>Grand Theft Auto</h2>
+				<img src="images/gtaonlinecardbackground.jpg" alt="Los Santos Skyline Zoomed Out">
+				<img src="images/gtaonlinecardimage.jpg" alt="alternative Gta Online Logo">
+				<h2>Grand Theft Auto Online</h2>
 				<p>Includes <b>GTA Online</b></p>
-				<img src="images/ps5.svg">
-				<img src="images/xbox.svg">
+				<img src="images/ps5.svg" alt="ps5 logo">
+				<img src="images/xbox.svg" alt="xbox Series X|S Logo">
 				<p>Story mode upgrade available in game</p>
 				<button>SELECT PLATFORM</button>
 			</article>
 			<article>
-				<img src="images/gtaonlinecardbackground.jpg">
-				<img src="images/gtavcardimage.jpg">
-				<h2>Grand Theft Auto Online</h2>
+				<img src="images/gtavcardbackground.jpg" alt="Los Santos Map">
+				<img src="images/gtavcardimage.jpg" alt="Alternative Gta Logo">
+				<h2>Grand Theft Auto</h2>
 				<p>Includes <b>GTA Online</b></p>
-				<img src="images/ps5.svg">
-				<img src="images/xbox.svg">
+				<img src="images/ps5.svg" alt="ps5 logo">
+				<img src="images/xbox.svg" alt="Xbox Series X|S Logo">
 				<p>Story mode upgrade available in game</p>
 				<button>SELECT PLATFORM</button>
 			</article>
@@ -179,9 +186,9 @@
 		<p><b>All latest feature upgrades and improvements available for PlayStation 5 and Xbox Series X|S only.</b></p>
 	</section>
 	<section class="ESRB">
-        <img src="images/ESRB.svg">
+        <img src="images/ESRB.svg" alt="ESRB Rating">
         <p>Blood and Gore, Intense Violence, Mature Humor, Nudity, Strong Language, Strong Sexual Content, Use of Drugs and Alcohol</p>
-        <hr></hr>
+        <hr>
 		<p>In-Game Purchases,  Users Interact</p>
     </section>
 	</main>
@@ -193,7 +200,7 @@
             <li>Subscribe</li>
         </ul>
 		<select class="languageselector" name="pets" id="pet-select">
-		  <option value=""><img src="images/globe.svg">Select a language<img src="images/downselectarrow.svg"></option>
+		  <option value="">Select a language</option>
 		  <option value="Deutsch">Deutsch</option>
 		  <option value="English">English</option>
 		  <option value="Espanol">Espanol</option>
@@ -202,11 +209,11 @@
 		  <option value="Italiano">Italiano</option>
 		</select>
 		<ul>
-			<a href="#"><img src="images/xicon.svg"></img></a>
-			<a href="#"><img src="images/instagram.svg"></img></a>
-			<a href="#"><img src="images/yticon.svg"></img></a>
-			<a href="#"><img src="images/fbicon.svg"></img></a>
-			<a href="#"><img src="images/twitchicon.svg"></img></a>
+			<li><a href="#"><img src="images/xicon.svg" alt="X Icon"></a></li>
+			<li><a href="#"><img src="images/instagram.svg" alt="Instagram Icon"></a></li>
+			<li><a href="#"><img src="images/yticon.svg" alt="YouTube Icon"></a></li>
+			<li><a href="#"><img src="images/fbicon.svg" alt="Facebook Icon"></a></li>
+			<li><a href="#"><img src="images/twitchicon.svg" alt="Twitch Icon"></a></li>		  
 		</ul>
 		<ul>
 			<li>Corporate</li>

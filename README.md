@@ -237,8 +237,58 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  Bron: ChatGPT - CSS 99
+  Waarvoor: How do i make images black on my light mode theme? Would it be possible to only do it on images that end with .svg?
 
+  Bron: ChatGPT - CSS 126
+  Waarvoor: ChatGPT gevraagd over prefers reduced motion, ik vroeg of er een globale oplossing was en dit was het resultaat
+
+  Bron: ChatGPT, https://chatgpt.com/share/66f817dc-e5d4-8001-bccf-3ece9e448f24 - CSS 189
+  Waarvoor: child selector, niet alles onder header maar alleen van header zelf selecteren
+
+  Bron: W3Schools, https://www.w3schools.com/howto/howto_css_placeholder.asp - CSS 239
+  Waarvoor: Placeholder text stylen via CSS (welke selector nodig/mogelijk?)
+
+  Bron: Codepen, https://codepen.io/vkjgr/pen/VYMeXp?editors=1100 - CSS 246
+  Waarvoor: Searchbar image toevoegen
+
+  Bron: Copilot - CSS 264
+  Waarvoor: How to exclude the first item in a display flex when applyiong margin?
+
+  Bron: Stackoverflow, https://stackoverflow.com/questions/6195329 how-can-you-hide-the-arrow-that-is-displayed-by-default-on-the-html5-details-e - CSS 284
+  Waarvoor: Default arrow verstoppen bij details element
+
+  Bron: Copilot
+  Waarvoor: Copilot gevraagd om het te verstoppen op alle browsers want op telefoon previewen had het nog wel de marker omdat het ios is
+  
+  Bron: Stackoverflow, https://stackoverflow.com/questions/61292792/css-selector-for-details-element-when-opened - CSS 310
+  Waarvoor: Opened state stylen met css
+
+  Bron: ChatGPT - CSS 339
+  Waarvoor: Een dramatische curve
+
+  Bron: Copilot - CSS 558 
+  Waarvoor: copilot gevraagd om te kijken hoe ik 2 cards horizontale cards kan omzetten naar een scrollable ding, copilot suggereerde overflow x + scrollsnap + webkit voor telefoon
+
+  Bron: Copilot - CSS 692
+  Waarvoor: De filter
+
+  Bron: Grid Generator + Jesse/Jason
+  Waarvoor: Grid maken voor de ESRB section
+
+  Bron: Codepen, https://codepen.io/vkjgr/pen/VYMeXp?editors=1100 - CSS 769
+  Waarvoor: image toevoegen aan de select
+
+  Bron: Copilot
+  Waarvoor: copilot gevraagd om te kijken hoe ik 2 cards horizontale cards kan omzetten naar een scrollable ding, copilot suggereerde overflow x + scrollsnap + webkit voor telefoon
+  
+  Bron: Codepen, https://codepen.io/DarkCode123/pen/MWoNBgz - JS 3
+  Waarvoor: Carousel Scroll
+
+  Bron: Lesopdracht hamburgermenu - JS 68
+  Waarvoor: hamburgermenu
+
+  Bron: Copilot 
+  Waarvoor: Intersection Observer
+  
 </details>
